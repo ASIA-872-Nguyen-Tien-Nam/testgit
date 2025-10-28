@@ -1,0 +1,39 @@
+.dtp>.dtp-content>.dtp-date-view>header.dtp-header{
+    background: #c17900;
+  }
+  .dtp div.dtp-date, .dtp div.dtp-time{
+    background: #f9a825;
+  }
+
+  .dtp table.dtp-picker-days tr>td>a.selected{
+    background: #f9a825;
+  }
+  .dtp table.dtp-picker-days tr>td>a:hover, .dtp table.dtp-picker-days tr>td>a:focus{
+    background: #c17900;
+  }
+  .dtp-buttons .btn:focus, .dtp-buttons .btn:hover{
+    background: #c17900;
+  }
+  .dtp-buttons .btn{
+    background: #f9a825;
+  }
+  .month-picker-item.active{
+    color: #c17900;
+  }
+  .month-picker-item:hover{
+    color: #c17900;
+  }
+  .year-picker-item.active{
+    color: #c17900;
+  }
+  .year-picker-item:hover{
+    color: #f9a825;
+  }
+  .button-1,.button-2 {
+    max-width: 49% !important;
+  }
+  @media (max-width: 400px) {
+    .button-1,.button-2 {
+      max-width: unset !important;
+    }
+  }

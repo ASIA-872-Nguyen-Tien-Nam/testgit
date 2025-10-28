@@ -1,0 +1,11 @@
+.p-content {
+    max-height: calc(100vh - 30px);
+    margin-top: 30px;
+}
+
+body, .popup-wrapper{
+    overflow: hidden;
+}
+textarea {
+    height: 90px;
+}

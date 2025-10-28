@@ -1,0 +1,10 @@
+.ln-1{
+    min-width: 106px;
+}
+
+@media (min-width:1200px) and (max-width:1265px) {
+    .inner .col-xl-9 {
+        flex: 0 0 70%;
+        max-width: 70%;
+    }
+}

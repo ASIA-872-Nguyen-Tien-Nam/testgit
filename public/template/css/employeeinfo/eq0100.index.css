@@ -1,0 +1,131 @@
+.table-fixed-header{
+	max-height: 54vh;
+	margin-bottom: 10px;
+}
+table .md-checkbox-v2 input[type="checkbox"]+label:before {
+	margin-right: 0px !important;
+}
+/*.md-checkbox-v2 input[type="checkbox"]+label:focus {
+	outline: none;
+}*/
+.md-radio-v2 input[type="radio"]:focus + label, .md-checkbox-v2 input[type="checkbox"]:focus + label {
+    outline: thin dotted;
+}
+table tr label {
+	margin-top: .5rem;
+}
+
+.w-50px {
+	width: 50px;
+	min-width: 50px;
+	max-width: 50px;
+}
+.w-80px {
+	 width: 80px;
+	 min-width: 80px;
+	 max-width: 80px;
+ }
+.w-120px {
+	width: 120px;
+	min-width: 120px;
+	max-width: 120px;
+}
+.w-140px {
+	width: 140px;
+	min-width: 140px;
+	max-width: 140px;
+}
+.w-160px {
+	width: 160px;
+	min-width: 160px;
+	max-width: 160px;
+}
+.min-w160px{
+	min-width: 160px;
+}
+.w-200px {
+	width: 200px;
+	min-width: 200px;
+	max-width: 200px;
+}
+.w-240px {
+	/*width: 240px;
+	min-width: 240px;*/
+	max-width: 240px;
+}
+.w-260px {
+	width: 260px;
+	min-width: 260px;
+	max-width: 260px;
+}
+.head_checkbox{
+	width: 25px;
+	min-width: 0px;
+}
+
+
+/* scroll top table*/
+.backfff{
+	background-color: #fff;
+}
+.pagin-poss{
+	position: relative;
+	min-height: 38px;
+}
+.show_button_div{
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+tr.evaluate{ background: #F9F4DC;}
+@media (min-width: 1369px) {
+	.table-responsive{
+		height: 520px;
+	}
+}
+@media (max-width: 1368px) {
+	.table-responsive{
+		height: 520px;
+	}
+}
+/*fixed top table*/
+.scroll-div1 {
+	width: 4600px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+.wmd-view-topscroll {
+	height: 18px;
+}
+
+.wmd-view-topscroll, .wmd-view {
+	overflow-x: scroll;
+}
+.line-border-bottom {
+    border-left: 5px solid #ffc000;
+}
+.pager-info {
+    width: unset;
+}
+.input-group-text {
+    padding: 0px !important;
+}
+#cb_page {
+	margin-right: 5px;
+}
+.dropdown-menu label {
+    color: #181818 !important;
+}
+.dsn {
+    display: none;
+}
+.btn-group.my_container.show button.multiselect.dropdown-toggle.btn.btn-default, button.multiselect.dropdown-toggle.btn.btn-default:focus {
+    border-color: #cfccc4 !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #cfccc485 !important;
+}
+.border-row {
+	border-top: 2px solid #b7bbbe;
+	padding-top: 10px;
+}

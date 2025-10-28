@@ -1,0 +1,25 @@
+.p0{
+    padding: 0;
+}
+.min-w70{
+	min-width: 70px;
+}
+.min-w100{
+    min-width: 100px;
+}
+.min-w150{
+    min-width: 150px;
+}
+.backfff{
+    background-color: #fff;
+}
+@media (min-width: 1369px) {
+	.table-responsive{
+		height: 520px;
+	}
+}
+@media (max-width: 1368px) {
+	.table-responsive{
+		height: 160px;
+	}
+}

@@ -1,0 +1,31 @@
+.ln-1{
+    min-width: 106px;
+}
+@media (min-width: 1331px) and (max-width: 1598px) {
+	.header-left-function{
+		flex: 0 0 16%;
+		max-width: 16% !important;
+	}
+	.nav-menubar-pc{
+		flex: 0 0 84%;
+		max-width: 84%;
+	}
+}
+@media (min-width: 1598px) {
+	.header-left-function{
+		flex: 0 0 25%;
+		max-width: 25% !important;
+	}
+	.nav-menubar-pc{
+		flex: 0 0 75%;
+		max-width: 75%;
+	}
+}
+@media (min-width: 576px) and (max-width: 1330px) {
+	.nav-menubar-mobile {
+		display: block !important;
+	}
+	.nav-menubar-pc {
+		display: none !important;
+	}
+}

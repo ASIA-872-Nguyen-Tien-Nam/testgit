@@ -1,0 +1,128 @@
+.character {
+	max-width: 12px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.character .multi-select-full,.character5 .multi-select-full{
+    padding-top: 15px ;
+}
+.character2 .multi-select-full{
+    margin-top: 7px ;
+}
+.character3 .multi-select-full{
+    width: 108px;
+}
+.character4 .multi-select-full{
+    width: 108px;
+}
+.character5 .multi-select-full{
+    width: 108px;
+}
+
+.multi-select-full .input-group span {
+	margin-left: 10px;
+	padding-top: 6px;
+}
+.input-group-btn.input-group>input.form-control:not(:last-child) {
+    border-radius: 5px;
+}
+.list-img img {
+	width: 30px;
+}
+.show-popup td {
+	padding: 12px
+}
+.popup {
+	border: none !important;
+	padding-right: 11px !important;
+}
+.popup:enabled {
+	cursor: pointer;
+}
+.table {
+	margin-bottom: 1rem !important;
+}
+.btn-search {
+	min-width: 48%;
+}
+.character0,.character2 {
+	min-width: 180px;
+}
+.character3,.character4 {
+	max-width: 120px;
+}
+.character4 {
+    margin-top: 7px ;
+}
+.character5{
+	max-width: 25px;
+}
+.table tbody tr {
+	cursor: unset !important;
+}
+#set-width {
+	min-width:14%;
+}
+.tr2 th {
+	top :49px !important;
+}
+@media (min-width: 1600px) and (max-width: 1900px){
+	
+	.character0,.character2 {
+		min-width: 180px;
+	}
+	.btn-search {
+		min-width: 37%;
+	}
+	#set-width {
+		max-width:6% !important;
+		min-width:unset !important;
+	}	
+}
+@media (min-width: 1260px) and (max-width: 1599px){
+	.character0,.character2 {
+		min-width: 165px;
+	}
+	.btn-search {
+		min-width: 23%;
+	}
+	#set-width {
+		display:none !important;
+	}
+	#set-width-div {
+		max-width:162px !important;
+	}
+}
+@media (max-width: 575px) {
+
+	.character0 {
+		margin-top: 10px;
+	}
+}
+@media (max-width: 1200px){
+	#table-data {
+		min-width: 1400px !important;
+	}
+}
+@media (max-width: 767px) {
+	.character {
+		margin-top: -41px !important;
+		margin-bottom: -50px !important;
+		margin-left: 10px !important;
+	}
+}
+h6{
+    font-family: "Noto Sans JP", sans-serif !important; 
+    font-size: 0.875rem;
+	margin-top: 0px;
+	margin-bottom: 0px;
+} 
+
+@media (max-width: 575.98px){
+.table-responsive {
+		display: block;
+		width: 100%;
+		overflow-x: auto ;
+		white-space: normal;
+	}
+}

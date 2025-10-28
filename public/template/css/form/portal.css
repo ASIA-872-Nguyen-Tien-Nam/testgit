@@ -1,0 +1,297 @@
+.navbar-act:not(.active),.navbar-brand.active {
+    display: none;
+}
+label {
+    font-size: .875rem;
+}
+.gflex {
+    display: flex;
+    justify-content: center;
+}
+.hidden,.hide {
+    display: none;
+}
+.numeric,.only-number,.only-numeric {
+    text-align: right;
+}
+.main-nav > ul {
+    min-height: 100vh;
+}
+.content:not(.active) {
+    /* padding-top: 0 !important; */
+    min-height: 90vh;
+}
+.dash_hyouka_left{
+    width: 100%;
+    float: left;
+    /* margin: 30px 0 0 10px; */
+}
+div.hyouka-left_stepBox {
+}
+div.hyouka-left_stepBox ul{
+	margin:0;
+	padding:1px;
+	list-style: none;
+}
+div.hyouka-left_stepBox ul li{
+}
+div.hyouka-left_stepBox ul.left_stepBox_wrap {
+}
+div.hyouka-left_stepBox ul li.left_stepBox_wrap {
+    border-right: 1px solid #CCC;
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    background: #FFF;
+    border-radius: 5px;
+    padding: 25px 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px #EEE;
+}
+div.hyouka-left_stepBox ul li.left_stepBox_wrap:hover {
+		position: relative;
+		top: 1px;
+		left: 1px;
+		box-shadow: 0 11px 18px rgba(0,0,0,0.2), 0px 0px 0px 1px rgba(255, 255, 255, 1) inset, 0px 0px 0px 2px rgba(255, 255, 255, 1) inset;
+		-moz-box-shadow: 0 11px 18px rgba(0,0,0,0.2), 0px 0px 0px 1px rgba(255, 255, 255, 1) inset, 0px 0px 0px 2px rgba(255, 255, 255, 1) inset;
+		-webkit-box-shadow: 0 11px 18px rgba(0,0,0,0.2), 0px 0px 0px 1px rgba(255, 255, 255, 1) inset, 0px 0px 0px 2px rgba(255, 255, 255, 1) inset;
+		-o-box-shadow: 0 11px 18px rgba(0,0,0,0.2), 0px 0px 0px 1px rgba(255, 255, 255, 1) inset, 0px 0px 0px 2px rgba(255, 255, 255, 1) inset;
+		-ms-box-shadow: 0 11px 18px rgba(0,0,0,0.2), 0px 0px 0px 1px rgba(255, 255, 255, 1) inset, 0px 0px 0px 2px rgba(255, 255, 255, 1) inset;
+
+}
+div.hyouka-left_stepBox ul li.left_stepBox_wrap a {
+    text-decoration: none;
+    color: #333;
+}
+div.hyouka-left_stepBox ul li.left_stepBox_wrap a div.left-stepBox_step {
+   float: left;
+    width: 90px;
+    height: 90px;
+    padding: 15px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.borderStep4{ border-left: 10px solid #25A79B;}
+.borderStep8{ border-left: 10px solid #E87442;}
+.circleStep4{ border: 2px solid #25A79B;}
+.circleStep8{ border: 2px solid #E87442;}
+
+div.hyouka-left_stepBox ul li.left_stepBox_wrap a div.left-stepBox_step span.stepName {
+    display: block;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.colorStep4{ color: #25A79B;}
+.colorStep8{ color: #E87442;}
+
+div.hyouka-left_stepBox ul li.left_stepBox_wrap a div.left-stepBox_step span.stepNamber {
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    display: block;
+}
+div.hyouka-left_stepBox ul li.left_stepBox_wrap a div.left-stepBox_shosai {
+}
+div.hyouka-left_stepBox ul li.left_stepBox_wrap a div.left-stepBox_shosai b {
+    font-size: 27px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+div.hyouka-left_stepBox ul li.left_stepBox_wrap a div.left-stepBox_shosai b span {
+    display: block;
+    font-size: 16px;
+    line-height: 16px;
+}
+div.hyouka-left_stepBox ul li.left_stepBox_wrap a div.left-stepBox_shosai ul {
+    overflow: hidden;
+    margin-top: 10px;
+}
+div.hyouka-left_stepBox ul li.left_stepBox_wrap a div.left-stepBox_shosai ul li {
+    float: left;
+    margin-right: 20px;
+}
+div.hyouka-left_stepBox ul li.left_stepBox_wrap a div.left-stepBox_shosai ul li span {
+    display: block;
+    font-size: 12px;
+    border: 1px solid #ddd;
+    float: left;
+    width: 100px;
+    text-align: center;
+    margin-right: 10px;
+}
+div.dash_hyouka_right {
+    background: #FAFAFA;
+    float: right;
+    width: 100%;
+    padding-left: 2%;
+    padding-top: 35px;
+    min-height: 92vh;
+}
+div.dash_hyouka_right div.hyouka-right_Box {
+    margin-bottom: 30px;
+}
+div.dash_hyouka_right div.hyouka-right_Box b{
+    color: #1080BF;
+    font-size: 14px;
+    display: block;
+    border-bottom: 1px solid #1080BF;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    /*text-indent: 10px;*/
+}
+div.dash_hyouka_right div.hyouka-right_Box b svg{
+    display: block;
+    float: left;
+    margin: 3px 0px 0px 5px;
+}
+div.dash_hyouka_right div.hyouka-right_Box b.rightBox-icon_hyokataisho {
+}
+div.dash_hyouka_right div.hyouka-right_Box ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+div.dash_hyouka_right div.hyouka-right_Box ul li {
+    border-bottom: 1px solid #DDD;
+}
+div.dash_hyouka_right div.hyouka-right_Box ul li a {
+    color: #333;
+    display: block;
+    padding: 10px;
+    font-size: 13px;
+}
+div.dash_hyouka_right div.hyouka-right_Box ul li a:hover{
+    background: #DADADA;
+}
+div.dash_hyouka_right div.hyouka-right_Box ul li a span {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #DDD;
+}
+div.dash_hyouka_right div.hyouka-right_Box b.rightBox-icon_info {
+}
+
+.p-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #2B71B9;
+  padding: 10px 0;
+  margin-top: -20px;
+  margin-bottom: 15px;
+  color: #2B71B9;
+}
+
+.p-title > h4 {
+  -webkit-box-flex: 0;
+          flex: 0 0 50%;
+  -moz-flex: 0 0 50%;
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 9px 0;
+}
+
+.p-title > h4.block {
+  -webkit-box-flex: 0;
+          flex: 0 0 100%;
+  -moz-flex: 0 0 100%;
+  -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+}
+.form-group-inner {
+    border:1px solid #d0d6da;
+}
+.form-group-inner .form-control,
+.form-group-inner .input-group-text {
+    border:1px solid transparent;
+}
+.lth li {
+    position: relative;
+}
+
+
+.lth li .btn:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range) {
+    padding: .15rem .55rem;
+    border-radius: .15rem;
+}
+.lth li .btn-green,
+.lth li .btn-orange {
+    position: absolute;
+    right: 15px;
+    top:.275rem;
+}
+.btn-orange {
+    background-color: #E87443;
+}
+.btn-green {
+    background-color: #5cdd5e;
+    padding: 0 !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+}
+.lth li .btn-green {
+    top:15px;
+}
+div.dash_hyouka_right div.hyouka-right_Box ul.lth li a {
+    /*padding-right: 7rem;*/
+    text-decoration:none;
+}
+div.dash_hyouka_right div.hyouka-right_Box ul.lth li a:hover{
+    color: #2B71B9;
+}
+.mt-15 {
+    margin-top: 15px;
+}
+.chevron {
+    padding: .15rem .45rem;
+    color:#2B71B9;
+}
+.chevron:hover,
+.chevron:focus {
+    /*text-decoration: none;*/
+}
+.rater_background{
+    background: pink;
+}
+.left-stepBox_step {
+    margin-bottom:30px;
+}
+#block_link_q2010 span{
+    right: 18px;
+}
+@media (max-width: 1600px) {
+#org_belong_3 {
+    margin-right: 20px;
+}
+#block_link_q2010_small {
+    top:20px;
+    min-width: 300px;
+    right: 0px;
+}
+}
+@media (max-width: 600px) {
+#block_link_q2010 {
+    top:20px;
+    min-width: 300px;
+}
+#block_link_q2010 span{
+    left: 10px  !important;
+}
+}
+@media (max-width: 1060px ) and (min-width: 1000px) {
+    .div_small_header {
+        width: 300px;
+    }
+}

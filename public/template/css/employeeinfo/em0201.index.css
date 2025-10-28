@@ -1,0 +1,9 @@
+.mt-12px {
+  margin-top: 12px;
+}
+
+@media only screen and (max-width: 1366px) {
+  .col-responsive {
+    min-width: 106px;
+  }
+}

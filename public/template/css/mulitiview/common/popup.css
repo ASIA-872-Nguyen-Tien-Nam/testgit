@@ -1,0 +1,177 @@
+.p-head {
+  background: #519657 !important;
+}
+
+.btn-outline-primary:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range):not(.dtp-select-month-range) i {
+  color: #519657 !important;
+}
+
+.btn-outline-primary:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range):not(.dtp-select-month-range) {
+  color: #519657 !important;
+  border: 1px solid #dee2e6;
+}
+
+.btn-outline-primary:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range):not(.dtp-select-month-range):active i,
+.btn-outline-primary:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range):not(.dtp-select-month-range):hover i,
+.btn-outline-primary:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range):not(.dtp-select-month-range):focus i {
+  color: #fff !important;
+}
+
+.btn-outline-primary:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range):not(.dtp-select-month-range):focus,
+.btn-outline-primary:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range):not(.dtp-select-month-range):active,
+.btn-outline-primary:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range):not(.dtp-select-month-range):hover {
+  background-color: #519657 !important;
+  color: white !important;
+  border: 1px solid #dee2e6;
+}
+
+.md-checkbox-v2 input[type="checkbox"]+label:before {
+  background-color: #519657 !important;
+}
+
+.md-checkbox-v2 input[type="checkbox"]+label {
+  color: #519657 !important;
+}
+
+.md-checkbox-v2 input[type="checkbox"]:checked+label:before {
+  background: #519657 !important;
+
+}
+
+.md-checkbox-v2 input[type="checkbox"]:checked+label {
+  color: #519657 !important;
+}
+
+.md-checkbox-v2 input[type="checkbox"]:focus+label::before {
+  outline: rgb(138, 222, 131) auto 5px;
+}
+
+.pagination.circle.outline li.active .page-link {
+  border: 1px solid #519657 !important;
+  background: #519657 !important;
+}
+
+.pagination.circle.outline li:not([disabled]):hover .page-link,
+.pagination.circle.outline li:not([disabled]):focus .page-link,
+.pagination.circle.outline li:not([disabled]):active .page-link {
+  border: 1px solid #519657 !important;
+}
+
+.pagination.circl li:hover .page-link,
+.pagination.circl li:focus .page-link,
+.pagination.circl li:active .page-link {
+  background: #519657 !important;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #8ade83;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #8ade8385;
+}
+
+.form-control:disabled,
+.form-control[readonly],
+.form-control.required:disabled {
+  background-color: #eaeaea;
+  cursor: default;
+}
+
+.form-control[readonly]:focus {
+  box-shadow: unset;
+  -moz-box-shadow: unset;
+  -webkit-box-shadow: unset;
+}
+
+.form-control.required {
+  background: #fff0d3;
+}
+
+.form-control.textbox-error {
+  color: #f72809;
+  border: 1px solid #f72809;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 19px;
+  background-color: white;
+  border: 1px solid #d0d6da;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input~.checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked~.checkmark {
+  background-color: white;
+  border: 1px solid #d0d6da;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked~.checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid #fc933c;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 15px;
+  /* margin-top: 9px; */
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.cb_onfocus {
+  border-color: #8fe996;
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem rgba(85, 185, 85, 0.25);
+}
+
+.button--action {
+  background-color: #519657 !important;
+}
+
+.button--action:hover {
+  background-color: #0a856c !important;
+}

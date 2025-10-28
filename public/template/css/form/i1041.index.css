@@ -1,0 +1,51 @@
+.w-100{
+    width: 100px !important;
+}
+.w25{
+    width: 25%;
+}
+.minw-150{
+    min-width: 150px;
+}
+.minw-100{
+    min-width: 100px;
+}
+@media screen and (max-width:768px){
+    .w25{
+        width: auto !important;
+        min-width: 150px !important;
+    }
+
+}
+.navbar-expand-lg .navbar-collapse {
+    min-height: 54px;
+}
+.back-fff{
+    background-color: #fff !important;
+}
+.textbox-error{
+    text-align: left !important
+}
+.md-checkbox-v2 input[type="checkbox"]+label {
+    outline: none;
+}
+.td-text{
+    line-height: 38px;
+}
+.mg_left {
+    margin-left: 10px;
+}
+.mg_right {
+    margin-right: 10px;
+}
+.ln-text{
+    white-space: nowrap;
+}
+/*
+.mg_before_date1 .lg{
+    margin-left: 98px;
+}
+
+.mg_before_date2 .lg{
+    margin-left: 85px;
+}*/

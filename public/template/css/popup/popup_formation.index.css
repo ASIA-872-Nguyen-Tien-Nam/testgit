@@ -1,0 +1,87 @@
+.search-condition {
+  position: relative;
+}
+.search-condition .hid {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+a[aria-expanded="false"] .fa-caret-up,
+a[aria-expanded="true"] .fa-caret-down {
+  display: none;
+}
+a[aria-expanded="true"] .fa-caret-up,
+a[aria-expanded="false"] .fa-caret-down {
+  display: inline-block;
+}
+.p-content {
+    margin-top: 70px!important;
+}
+@media (min-width: 1369px) {
+/*  .table-responsive{
+    height: 480px;
+    margin-bottom: 5px;
+  }*/
+  .td-width {
+    max-width: 300px;
+  }
+}
+@media (max-width: 1368px) {
+/*  .table-responsive{
+    height: 180px;
+    margin-bottom: 5px;
+  }*/
+  .td-width{
+    max-width: 100px;
+  }
+}
+.span-symbol{
+    line-height: 35px!important;
+    padding: 0px 8px 0px 8px;
+}
+.btn-green{
+    background-color: #5cdd5e;
+    padding: 0 !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+}
+.flex{
+  display:flex;
+}
+.margin-top7{
+  margin-top: 7%;
+}
+.row-margin-top{
+  margin-top: 15px;
+}
+input-1 {
+  width: 200px;
+}
+.content {
+  padding-top: 45px !important;
+}
+@media (max-width: 700px) {
+  .checkbox-top {
+    margin-top: -45px !important;
+  }
+}
+ @media (min-width: 576px) and (max-width: 767px) {
+  .flex {
+    flex-direction: unset;
+  }
+}
+@media (max-width: 575px) {
+  .input-1 {
+    min-width: 100%;
+  }
+  .flex {
+    flex-direction: column;
+  }
+  .content {
+    padding-top: 60px !important;
+  }
+  .table {
+    overflow-y: hidden !important;
+  }
+} 

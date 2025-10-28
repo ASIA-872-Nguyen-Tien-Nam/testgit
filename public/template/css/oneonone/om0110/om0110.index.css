@@ -1,0 +1,49 @@
+.table-hover tbody tr:hover{
+	background-color: unset;
+}
+.table-hover tbody tr td:hover{
+	background-color: rgba(0,0,0,.075);
+}
+.low-selected{
+	background-color: rgba(0,0,0,.075);
+}
+.mid-selected{
+	background-color: rgba(0,0,0,.075);
+}
+.item-right{
+	float: right;
+}
+.inputfile {
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+@media (max-width: 575px) {
+	#table-data {
+	  min-width: 1000px !important;
+	}
+	#leftcontent > .inner, #rightcontent > .inner {
+		min-height: unset !important;
+		height: unset !important;
+	}
+}
+@media (min-width: 576px) and (max-width: 767px) {
+	#table-data {
+		min-width: 1100px !important;
+	}
+	#leftcontent > .inner, #rightcontent > .inner {
+		min-height: unset !important;
+		height: unset !important;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#table-data {
+		min-width: 1200px !important;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	#table-data {
+		min-width: 1300px !important;
+	}
+}

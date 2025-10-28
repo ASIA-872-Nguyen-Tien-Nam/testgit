@@ -1,0 +1,52 @@
+<?php
+Route::group(
+	['prefix'=>'multiview','middleware'=>['logined']],
+	function() {
+        // Route::get('mdashboard','MDashboardController@index');  
+        Route::get('mdashboard','MDashboardController@getManager');
+        Route::get('mdashboardsupporter','MDashboardController@getSupporter');
+        Route::post('mdashboard/search','MDashboardController@postSearch');
+        Route::post('mdashboardsupporter/search','MDashboardController@postSearch');
+        Route::post('mdashboard/save','MDashboardController@postSave');
+
+		//ms0020
+		Route::get('ms0020','MS0020Controller@index');
+        Route::post('ms0020/leftcontent','MS0020Controller@getLeftContent');
+        Route::post('ms0020/rightcontent','MS0020Controller@getRightContent');
+        Route::post('ms0020/save','MS0020Controller@postSave');
+        Route::post('ms0020/delete','MS0020Controller@postDelete');
+		//ms0030
+		Route::get('ms0030','MS0030Controller@getIndex');
+        Route::post('ms0030/search','MS0030Controller@postSearch');
+        Route::post('ms0030/delete','MS0030Controller@postDelete');
+        Route::post('ms0030/save','MS0030Controller@postSave');
+        Route::post('ms0030/refer_employee','MS0030Controller@referEmployee');
+        //
+        //mi2000
+        Route::get('mi2000','MI2000Controller@index');
+        Route::post('mi2000/save','MI2000Controller@postSave');
+        Route::post('mi2000/delete','MI2000Controller@postDelete');
+        Route::post('mi2000/send-mail','MI2000Controller@postSendMail');
+        //
+        Route::get('mi1010','MI1010Controller@index');
+        Route::post('mi1010/search','MI1010Controller@postSearch');
+        Route::post('mi1010/refer','MI1010Controller@postRefer');
+        Route::post('mi1010/save','MI1010Controller@postSave');
+        Route::get('mi1010/view-supporter','MI1010Controller@popupSupporter');
+        Route::post('mi1010/save-popup','MI1010Controller@postSavePopup');
+        Route::post('mi1010/export-excel','MI1010Controller@postExportExcel');
+        Route::post('mi1010/export-csv','MI1010Controller@exportCsv');
+        Route::post('mi1010/import','MI1010Controller@importCsv');
+        //
+        //mq2000
+        Route::get('mq2000','MQ2000Controller@index');
+        Route::post('mq2000/save','MQ2000Controller@postSave');
+        Route::post('mq2000/search','MQ2000Controller@postSearch');
+        Route::post('mq2000/export-excel','MQ2000Controller@postExportExcel');
+        Route::post('mq2000/export-excel-avg','MQ2000Controller@postExportExcelAvg');
+        // マイパーパス一覧
+        Route::get('mq9001','\App\Modules\Master\Controllers\Q9001Controller@getIndex'); 
+        Route::post('mq9001/search','\App\Modules\Master\Controllers\Q9001Controller@postSearch');
+        Route::post('mq9001/download','\App\Modules\Master\Controllers\Q9001Controller@postDownload');
+	}
+);

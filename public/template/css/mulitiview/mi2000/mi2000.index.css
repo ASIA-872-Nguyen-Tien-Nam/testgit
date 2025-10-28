@@ -1,0 +1,26 @@
+.select-width-multi {
+	max-width:178px;
+}
+.select-width-multi2 {
+	max-width:160px;
+}
+@media (max-width: 575.98px){
+	.checkbox-div label {
+		max-width: unset !important;
+	}
+	.select-width-multi {
+		max-width:unset !important;
+	}
+	.select-width-multi2 {
+		max-width:unset !important;
+	}
+}
+@media (max-width: 320px) {
+	label {
+		font-size: 0.775rem !important;
+	}
+}
+.dropdown-item.dropdown-item-delete:focus{
+	background-color:red !important;
+	color:white !important;
+}

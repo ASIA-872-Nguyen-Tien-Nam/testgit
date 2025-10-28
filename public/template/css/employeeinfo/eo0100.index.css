@@ -1,0 +1,17 @@
+
+.ln-btn-input{
+    border:1px solid #0000007d;
+    border-radius: 3px;
+    outline: none !important;
+    margin-right: 5px;
+}
+
+.ln-btn-input:hover{
+    background-color:  #e7e7e7;
+}
+.lh-input-custom:focus{
+    color: #495057;
+    border-color: #cfccc4;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #cfccc485;
+}

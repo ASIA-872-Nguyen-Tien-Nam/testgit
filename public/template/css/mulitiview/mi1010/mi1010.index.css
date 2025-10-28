@@ -1,0 +1,67 @@
+.checkmark{
+	left: 29%;
+	top: 2px;
+} 
+@media (max-width: 575px) {
+	#employee_info, #table_detail{
+	  min-width: 1000px !important;
+	}
+	.checkmark{
+		left: 18% !important;
+	}
+}
+@media (min-width: 576px) and (max-width: 767px) {
+	#employee_info, #table_detail{
+		min-width: 1100px !important;
+	}
+	.checkmark{
+		left: 20% !important;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#employee_info, #table_detail{
+		min-width: 1200px !important;
+	}
+	.checkmark{
+		left: 22% !important;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	#employee_info, #table_detail{
+		min-width: 1300px !important;
+	}
+	.checkmark{
+		left: 23% !important;
+	}
+}
+@media (min-width: 1200px) and (max-width: 1259px) {
+	.checkmark{
+		left: 20% !important;
+	}
+}
+@media (min-width: 1260px) and (max-width: 1600px){
+	.div-table-detail {
+		max-height: 315px !important;
+	}
+	.checkmark{
+		left: 23% !important;
+	}
+}
+.support__column {
+	min-width: 300px !important;
+}
+.position_cd {
+	max-width: 350px;
+}
+.job_cd {
+	max-width: 350px;
+}
+.bs-tooltip-auto[x-placement^=right] .arrow::before, .bs-tooltip-right .arrow::before {
+    border-right-color: #519657;
+}
+.bs-tooltip-auto[x-placement^=left] .arrow::before, .bs-tooltip-left .arrow::before {
+    border-left-color: #519657;
+}
+.emp_name {
+	min-width: 300px;
+}

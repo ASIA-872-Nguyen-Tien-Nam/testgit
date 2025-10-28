@@ -1,0 +1,76 @@
+.w-100{
+    width: 100px !important;
+}
+.w25{
+    width: 25%;
+}
+.minw-150{
+    min-width: 150px;
+}
+.minw-100{
+    min-width: 100px;
+}
+@media screen and (max-width:768px){
+    .w25{
+        width: auto !important;
+        min-width: 150px !important;
+    }
+
+}
+.navbar-expand-lg .navbar-collapse {
+        min-height: 54px;
+    }
+.back-fff{
+background-color: #fff !important;
+}
+.textbox-error{
+    text-align: left !important
+}
+.calHe.has-copy:before,
+.calHe.has-copy:after {
+    left: 20%!important;
+}
+.input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control {
+    width: 100%;
+}
+#table-data {
+    min-width: unset !important;
+}
+.input-1 {
+    min-width: 127px;
+    max-width: 127px;
+}
+.input-3 {
+    min-width: 250px;
+    max-width: 250px;
+}
+@media (max-width: 575px) {
+	#table-data-1 {
+        min-width: 1300px;
+    }
+    .input-1 {
+        min-width: unset;
+        max-width: unset;
+    }
+    .input-3 {
+        min-width: unset;
+        max-width: unset;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    #table-data-1 {
+        min-width: 1300px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #table-data-1 {
+        min-width: 1300px;
+    }
+    
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #table-data-1 {
+        min-width: 1000px;
+    }
+}

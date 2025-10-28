@@ -1,0 +1,237 @@
+.character {
+	max-width: 12px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.button-card-2 {
+	float: right;
+	border-radius: 15px 15px 15px 15px !important;
+	background: white;
+	color: #181818 !important;
+	font-size: 11px;
+  }
+.button-card-2:hover {
+	color: #519657 !important;
+	background: white;
+	border:1px solid #519657 !important;
+}
+.character .multi-select-full,.character5 .multi-select-full{
+    padding-top: 15px ;
+}
+.character2 .multi-select-full{
+    margin-top: 7px ;
+}
+.character3 .multi-select-full{
+    width: 108px;
+}
+.character4 .multi-select-full{
+    width: 108px;
+}
+.character5 .multi-select-full{
+    width: 108px;
+}
+
+.multi-select-full .input-group span {
+	margin-left: 10px;
+	padding-top: 6px;
+}
+.input-group-btn.input-group>input.form-control:not(:last-child) {
+    border-radius: 5px;
+}
+.list-img img {
+	width: 30px;
+}
+.show-popup td {
+	padding: 12px
+}
+.popup {
+	border: none !important;
+	padding-right: 11px !important;
+	cursor: pointer;
+}
+.table {
+	margin-bottom: 1rem !important;
+}
+.btn-search {
+	min-width: 48%;
+}
+.character0,.character2 {
+	min-width: 180px;
+}
+.character3,.character4 {
+	max-width: 120px;
+}
+.character4 {
+    margin-top: 7px ;
+}
+.character5{
+	max-width: 25px;
+}
+.table tbody tr {
+	cursor: unset !important;
+}
+.table tbody tr td {
+	height: 49px;
+}
+.select-right select { text-align-last: right; }
+.select-right option { direction: rtl; }
+#table-data .text-sort {
+    cursor: pointer;
+}
+.employee_cd_nm {
+
+    padding-right: 0px;
+}
+.width_employee_nm {
+    padding-left: 0px;
+}
+.employee_cd_nm  .refer_employee_cd{
+	border-right: 0px solid #ddd;
+    border-top-right-radius: unset;
+    border-bottom-right-radius: unset;
+}
+.width_employee_nm .refer_employee_nm{
+    border-top-left-radius: unset;
+    border-bottom-left-radius: unset;
+}
+.div-check {
+	max-width: 10.5%;
+}
+/* .input-group-btn .form-control {
+     padding-right: 10px; 
+} */
+.detail-info {
+	min-width: 33%;
+}
+.btn-primary {
+    background: #81c784;
+}
+.btn-primary:hover {
+    background: #81c784;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+	background: #81c784;
+}
+@media (min-width: 1600px) and (max-width: 1900px){
+}
+@media (min-width: 1260px) and (max-width: 1599px){
+	.div-check {
+		min-width: 22%;
+	}
+	.div-check-2 {
+		min-width: 20%;
+		margin-right: 20px;
+	}
+	.detail-info {
+		font-size: 12px;
+		min-width: 33%;
+	}
+}
+.nw {
+	white-space: nowrap;
+}
+.fix-but > a{
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.tbl {
+	width: 100%;
+}
+.col-custom {
+	flex: 0 0 80%;
+    max-width: 80%;
+}
+.w175 {
+	padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 175px;
+}
+.btn i:first-child {
+    margin-right: 0px!important;
+    margin-left: 0px!important; 
+}
+.col-md-auto{
+	bottom: 8px;
+	width: 20%;
+}
+.col-md-auto2{
+	width: 15%;
+	padding-left: 1%;
+}
+.col-md-auto a{
+	width: 100%;
+}
+.input-group .mmdd{
+	width: 100%;
+}
+.tr-adjustpoint{
+	display: flex;
+}
+.td-adjustpoint{
+	line-height: 35px;
+}
+.bl102 {
+	position: relative;
+    display: inline-block;
+}
+.bl102 .btn-remove-but {
+	position: absolute;
+    margin-top: 10px;
+    right: 15px;
+    font-size: 16px;
+    color: white;
+}
+.numericX1,
+.numericX2,
+.numericX3,
+.numericX4,
+.numericX5,
+.numericX6,
+.numericX7,
+.numericX8 {
+	text-align: right;
+}
+/* duongntt-add */
+@media (max-width: 575px) {
+	#table-data{
+	  min-width: 1000px !important;
+	}
+	.date_responsive {
+		display: block !important;
+	}
+	.gflex {
+		justify-content: unset;
+	}
+}
+@media (min-width: 576px) and (max-width: 767px) {
+	#table-data{
+		min-width: 1100px !important;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#table-data{
+		min-width: 1200px !important;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	#table-data{
+		min-width: 1300px !important;
+	}
+}
+@media (max-width: 767px) {
+	.character{
+		margin-top: -41px !important;
+		margin-bottom: -50px !important;
+		margin-left: 10px !important;
+	}
+}
+.table thead th:first-child {
+    left: unset;
+}
+.rater_employee_comment_1 {
+	height: 15px;
+}
+.ui-state-active {
+	border: none !important;
+	margin: 0px !important;
+}

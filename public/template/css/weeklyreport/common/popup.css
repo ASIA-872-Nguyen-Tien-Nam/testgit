@@ -1,0 +1,172 @@
+:root {
+  --primary-pink: #ec6c96fd;
+  --light-pink: #f6adc6;
+  --dark-pink: #c38a9e;
+  --secondary-pink: #ec6c96fd;
+  --border-pink: #f7dff7;
+  --sticky-1: #E57373;
+  --sticky-2: #FFF176;
+  --sticky-3: #42A5F5;
+  --sticky-4: #BA68C8;
+  --sticky-5: #81C784;
+  --hover-pink-tr: #f6eeee;
+}
+.p-head{
+    background: var(--primary-pink) !important;
+}
+.btn-outline-primary:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range):not(.dtp-select-month-range) i{
+    color: var(--primary-pink) !important;
+  }
+  .btn-outline-primary:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range):not(.dtp-select-month-range){
+    color: var(--primary-pink) !important;
+    border:1px solid #dee2e6 ;
+  }
+  .btn-outline-primary:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range):not(.dtp-select-month-range):active i,
+.btn-outline-primary:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range):not(.dtp-select-month-range):hover i,
+.btn-outline-primary:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range):not(.dtp-select-month-range):focus i {
+    color: #fff !important;
+}
+.btn-outline-primary:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range):not(.dtp-select-month-range):focus, .btn-outline-primary:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range):not(.dtp-select-month-range):active, .btn-outline-primary:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range):not(.dtp-select-month-range):hover{
+    background-color: var(--primary-pink) !important;
+    color: white !important;
+    border:1px solid #dee2e6 ;
+  }
+  .md-checkbox-v2 input[type="checkbox"]+label:before {
+    background-color: var(--primary-pink) !important;
+  }
+  .md-checkbox-v2 input[type="checkbox"]+label {
+    color: var(--primary-pink) !important;
+  }
+  .md-checkbox-v2 input[type="checkbox"]:checked+label:before {
+    background: var(--primary-pink) !important;
+
+  }
+  .md-checkbox-v2 input[type="checkbox"]:checked+label {
+    color: var(--primary-pink) !important;
+  }
+  .md-checkbox-v2 input[type="checkbox"]:focus+label::before {
+    outline: var(--primary-pink) auto 5px;
+  }
+  .pagination.circle.outline li.active .page-link {
+    border: 1px solid  var(--primary-pink) !important;
+    background: var(--primary-pink) !important;
+  }
+  .pagination.circle.outline li:not([disabled]):hover .page-link,
+  .pagination.circle.outline li:not([disabled]):focus .page-link,
+  .pagination.circle.outline li:not([disabled]):active .page-link {
+      border: 1px solid var(--primary-pink) !important;
+  }
+  .pagination.circl li:hover .page-link,
+  .pagination.circl li:focus .page-link,
+  .pagination.circl li:active .page-link {
+      background: var(--primary-pink) !important;
+  }
+  .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #ffc107;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #ffc10785;
+  }
+.setheight-common {
+  margin-top: 25px;
+}
+.checkbox-popup-1on1 {
+  margin-top: -10px;
+}
+@media (max-width: 575.98px) {
+  .search-common .text-right{
+    text-align: left !important;
+  }
+  .checkbox-popup .form-group {
+    margin-bottom: unset !important;
+  }
+  .setheight-common {
+    margin-top: unset !important;
+  }
+  .checkbox-popup-1on1 {
+    margin-top: -30px !important;
+  }
+}
+.modal-dialog{
+  margin: auto;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 19px;
+  background-color: white;
+  border:1px solid #d0d6da;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: white;
+  border:1px solid #d0d6da;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid var(--primary-pink);
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 15px;
+  margin-top: 9px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.label-itemimportant {
+  color: var(--primary-pink) !important;
+  font-weight: bold;
+}
+.btn-1on1-danger{
+  background: #d9534f !important;
+  color: white !important;
+}
+.btn-1on1-danger :hover{
+  background:#a11510 !important;
+  color: white !important;
+}

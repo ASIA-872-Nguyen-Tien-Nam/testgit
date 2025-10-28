@@ -1,0 +1,114 @@
+.table {
+	/*width: calc(100% - 30px)!important;*/
+	table-layout: fixed;
+}
+
+.fix-width {
+	max-width: 23%;
+}
+
+.text-company_nm {
+	width: 150px;
+}
+
+.text-nm {
+	min-width: 100px;
+	max-width: 100px;
+}
+
+.text-name {
+	width: 200px;
+}
+
+.user-id:hover {
+	cursor: pointer;
+	text-decoration: none !important;
+}
+
+@media (min-width: 1700px) and (max-width: 1900px) {
+	#select2_period {
+		max-width: 237px !important;
+	}
+
+	.text-company_nm {
+		width: 130px;
+	}
+}
+
+@media (min-width: 1260px) and (max-width: 1669px) {
+	.fix-width {
+		max-width: 5%;
+	}
+
+	.fix-width-date {
+		min-width: 15%;
+	}
+
+	.text-company_nm {
+		width: 70px;
+	}
+
+	.text-nm {
+		width: 120px;
+	}
+
+	.text-name {
+		width: 120px;
+	}
+}
+
+@media (max-width: 575px) {
+	#tbl-data {
+		min-width: 1600px;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+	#tbl-data {
+		min-width: 1600px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#tbl-data {
+		min-width: 1600px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	#tbl-data {
+		min-width: 1600px;
+	}
+}
+@media (max-width: 1650px) and (min-width: 1199px) {
+	.min_w200 {
+		min-width: 220px;
+	}
+	.min_w500 {
+		min-width: 100%;
+	}
+}
+.div_year_search_button {
+	max-width: 400px;
+}
+@media (min-width: 320px) and (max-width: 387px) {}
+
+#tbl-data {
+	table-layout: unset;
+}
+th {
+	min-width: 150px;
+}
+/*fixed top table*/
+.scroll-div1 {
+	width: 4600px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+.wmd-view-topscroll {
+	height: 18px;
+}
+
+.wmd-view-topscroll, .wmd-view {
+	overflow-x: scroll;
+}

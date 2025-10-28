@@ -1,0 +1,400 @@
+:root {
+    --primary-pink: #ec6c96fd;
+    --light-pink: #f6adc6;
+    --dark-pink: #c38a9e;
+    --secondary-pink: #ec6c96fd;
+    --border-pink: #f7dff7;
+    --sticky-1: #E57373;
+    --sticky-2: #FFF176;
+    --sticky-3: #42A5F5;
+    --sticky-4: #BA68C8;
+    --sticky-5: #81C784;
+    --hover-pink-tr: #f6eeee;
+}
+
+.target-row {
+    padding-left: 10px;
+}
+
+@media (max-width: 1200px) and (min-width: 1000px) {
+    #btn-target-member {
+        padding-right: 0px !important;
+    }
+}
+
+@media (max-width: 1800px) and (min-width: 1601px) {
+    .row_flex_small {
+        min-width: 900px;
+    }
+}
+
+@media (min-width: 1401px) {
+    .label_reporter {
+        width: 180px;
+    }
+}
+
+@media (max-width: 1600px) and (min-width: 1201px) {
+    .row_select_checkbox {
+        min-width: 600px;
+    }
+
+    .row_flex_small {
+        min-width: 670px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 1024px) {
+    .row_flex_small {
+        min-width: 410px;
+    }
+}
+
+@media (max-width: 1800px) and (min-width: 1601px) {
+    .row_select_checkbox {
+        min-width: 800px;
+    }
+}
+
+@media (min-width: 600px) {
+    .row_flex_small {
+        display: flex;
+    }
+
+    .row_select_checkbox {
+        display: flex;
+    }
+}
+
+@media (max-width: 600px) {
+    .row_flex_small {
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 1201px) {
+    .label_icon_rdashboard {
+        min-width: 180px;
+        max-width: 180px;
+    }
+
+    .label_reporter_rdashboard {
+        min-width: 140px;
+        max-width: 140px;
+    }
+
+    .label_date_rdashboard {
+        min-width: 100px;
+        max-width: 100px;
+    }
+
+    .label_situation_reporter {
+        min-width: 70px;
+        max-width: 70px
+    }
+
+    .label_title_reporter {
+        min-width: 150px;
+        max-width: 150px
+    }
+
+    .label_target_period_reporter {
+        min-width: 240px;
+        max-width: 240px
+    }
+
+    .label_weekly_fullfill_comment_reporter {
+        min-width: 420px;
+        max-width: 420px
+    }
+
+    .label_title_rdashboard {
+        min-width: 320px;
+    }
+}
+
+.label_icon_rdashboard {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+@media (min-width: 1201px) {
+    .label_reporter_rdashboard {
+        min-width: 90px;
+    }
+
+    .label_title_rdashboard {
+        min-width: 180px;
+    }
+}
+
+.checkmark {
+    top: 2px;
+}
+
+.list2 td {
+    height: 40px !important;
+}
+
+.shared {
+    background-color: var(--border-pink);
+}
+
+#icon_add_noti {
+    color: var(--primary-pink);
+}
+
+.btn_noti {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border: 1px solid var(--primary-pink);
+    padding-top: 3px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.btn_noti:hover {
+    background-color: var(--primary-pink);
+    border: 1px solid var(--primary-pink);
+}
+
+.btn_noti:hover #icon_add_noti {
+    color: white;
+}
+
+.fa-comments {
+    color: var(--primary-pink);
+}
+
+.fa-times {
+    color: red;
+    font-size: 18px;
+}
+
+.row_disabled {
+    background-color: rgb(196, 191, 191);
+}
+
+.row_disabled:hover {
+    background-color: rgb(196, 191, 191) !important;
+}
+
+@media (min-width: 1201px) {
+    .row_checkbox_filter {
+        display: flex;
+        align-items: center;
+        min-width: 400px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .row_checkbox_filter {
+        display: flex;
+        align-items: center;
+        min-width: 600px;
+    }
+
+    .row_checkbox_filter_div {
+        min-width: 600px;
+    }
+
+    .row_flex_small {
+        display: unset;
+    }
+
+    .select_box_group {
+        min-width: 330px;
+    }
+}
+
+@media (min-width: 1260px) {
+    #myTable {
+        table-layout: fixed;
+    }
+
+    #myTable_month {
+        table-layout: fixed;
+    }
+}
+
+.label_comment {
+    width: 90px;
+}
+
+.label_approval {
+    width: 90px;
+}
+
+@media (max-width: 1260px) {
+    .label_filling_date {
+        min-width: 155px;
+    }
+
+    .label_reporter {
+        min-width: 180px;
+        max-width: 180px;
+    }
+
+    /* .label_title {
+        min-width: 190px;
+    } */
+
+    .label_approval {
+        min-width: 120px;
+    }
+
+    .label_comment {
+        min-width: 120px;
+    }
+
+    /* .label_title {
+        min-width: 255px;
+    } */
+
+    .label_title_month {
+        min-width: 285px !important;
+        width: 26% !important;
+    }
+
+}
+
+.label_title_month {
+    min-width: 305px;
+    width: 25%;
+}
+
+@media (min-width: 1200px) and (max-width: 1800px) {
+    .label_title_jp {
+        min-width: 275px !important;
+        width: 25% !important;
+    }
+
+    .title_detail_jp {
+        width: 61%;
+    }
+
+    .title_detail_en {
+        width: 76%;
+    }
+}
+
+@media (min-width: 1800px) {
+    .label_title_jp {
+        min-width: 275px !important;
+        width: 25% !important;
+    }
+
+    .title_detail_jp {
+        width: 56%;
+    }
+}
+
+@media (max-width: 1499px) and (min-width:1260px) {
+    .label_filling_date {
+        width: 155px;
+    }
+
+    .label_reporter {
+        width: 150px !important;
+    }
+
+    /* .label_title {
+        width: 32%;
+    } */
+
+    .label_approval {
+        width: 8%;
+    }
+
+    .label_comment {
+        width: 8%;
+    }
+}
+
+@media (max-width: 1280px) and (min-width: 1200px) {
+    .label_icon_rdashboard {
+        min-width: 170px;
+    }
+}
+
+.label_filling_date {
+    width: 155px;
+}
+
+.label_reporter {
+    width: 215px;
+}
+
+.tooltip:hover:after {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tooltip:hover:before {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tab-content {
+    margin-left: 0 !important;
+    ;
+    border: none !important;
+    ;
+}
+
+.tab-content .tab-pane {
+    margin: 0 !important;
+}
+
+.table_noti,
+.table_react,
+.table_share,
+.table_alert {
+    width: 100%;
+    max-width: 100%;
+    table-layout: fixed;
+}
+
+.infomation_message {
+    width: calc(100% - 30px);
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.infomation_delete {
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.label_status {
+    min-width: 100px;
+    width: 100px;
+}
+
+@media (min-width: 1024px) {
+    .second_checkbox {
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .second_checkbox {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .second_checkbox label {
+        padding-right: 0px;
+    }
+}
+
+.label_adequacy {
+    min-width: 140px;
+    width: 20%;
+}
+
+.label_title {
+    min-width: 200px;
+}

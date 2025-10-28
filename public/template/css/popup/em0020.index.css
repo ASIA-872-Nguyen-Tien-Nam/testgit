@@ -1,0 +1,68 @@
+.container {
+    padding-left: 11px !important;
+    padding-right: 0px;
+}
+
+.table tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.dsn {
+    display: none;
+}
+
+.p-content {
+    margin-top: 50px !important;
+}
+
+.table-head thead {
+    position: sticky;
+    top: 0PX;
+    z-index: 30;
+    background: white;
+    white-space: nowrap;
+}
+.table-bordered thead tr th:not(:last-child) {
+    border-right: 1px solid #dee2e6 !important;
+}
+@media (min-width: 600px)
+{
+    .col-md-2 {
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+    .col-md-8 {
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+    #btn-add-row {
+        top: 28px;
+    }
+}
+
+@media (max-width: 309px)
+{
+    #btn-add-row {
+        top: 0px;
+    }
+}
+
+.btn {
+    padding: 0.375rem 0.575rem !important;
+}
+
+.tooltip-inner {
+  background-color: #707070 !important;
+}
+
+.bs-tooltip-auto[x-placement^=bottom] .arrow::before,
+.bs-tooltip-bottom .arrow::before {
+  border-bottom-color: #707070 !important;
+}
+
+.bs-tooltip-auto[x-placement^=top] .arrow::before,
+.bs-tooltip-top .arrow::before {
+  border-top-color: #707070 !important;
+}

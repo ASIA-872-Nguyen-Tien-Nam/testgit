@@ -1,0 +1,10 @@
+<?php 
+$namespace = '{{NAMESPACE}}\{{MODULE}}\Controllers';
+Route::group(
+	['namespace' => $namespace,'prefix'=>'{{PREFIX}}','middleware'=>['web']],
+	function() {
+
+		Route::get('','{{MODULE}}Controller@index');
+
+	}
+);

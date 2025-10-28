@@ -1,0 +1,122 @@
+.table-fixed-header{
+	max-height: 54vh;
+	margin-bottom: 10px;
+}
+table .md-checkbox-v2 input[type="checkbox"]+label:before {
+	margin-right: 0px !important;
+}
+/*.md-checkbox-v2 input[type="checkbox"]+label:focus {
+	outline: none;
+}*/
+.md-radio-v2 input[type="radio"]:focus + label, .md-checkbox-v2 input[type="checkbox"]:focus + label {
+    outline: thin dotted;
+}
+table tr label {
+	margin-top: .5rem;
+}
+
+.w-50px {
+	width: 50px;
+	min-width: 50px;
+	max-width: 50px;
+}
+.w-80px {
+	 width: 80px;
+	 min-width: 80px;
+	 max-width: 80px;
+ }
+.w-120px {
+	width: 120px;
+	min-width: 120px;
+	max-width: 120px;
+}
+.w-140px {
+	width: 140px;
+	min-width: 140px;
+	max-width: 140px;
+}
+.w-160px {
+	width: 160px;
+	min-width: 160px;
+	max-width: 160px;
+}
+.min-w160px{
+	min-width: 160px;
+}
+.w-200px {
+	width: 200px;
+	min-width: 200px;
+	max-width: 200px;
+}
+.w-240px {
+	/*width: 240px;
+	min-width: 240px;*/
+	max-width: 240px;
+}
+.w-260px {
+	width: 260px;
+	min-width: 260px;
+	max-width: 260px;
+}
+.head_checkbox{
+	width: 25px;
+	min-width: 0px;
+}
+
+.master-content[language="Language"] .lh-145{
+	width: 145px !important;
+	max-width: 145px !important;
+	min-width: 145px !important;
+}
+.master-content[language="Language"] .lh-170{
+	width: 170px !important;
+	max-width: 170px !important;
+	min-width: 170px !important;
+}
+
+/* scroll top table*/
+.backfff{
+	background-color: #fff;
+}
+.pagin-poss{
+	position: relative;
+	min-height: 38px;
+}
+.show_button_div{
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+tr.evaluate{ background: #F9F4DC;}
+@media (min-width: 1369px) {
+	.table-responsive{
+		height: 520px;
+	}
+}
+@media (max-width: 1368px) {
+	.table-responsive{
+		height: 520px;
+	}
+}
+/*fixed top table*/
+.scroll-div1 {
+	width: 4600px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+.wmd-view-topscroll {
+	height: 18px;
+}
+
+.wmd-view-topscroll, .wmd-view {
+	overflow-x: scroll;
+}
+/*.table-striped tbody tr:nth-of-type(odd) td{
+	background-color: #EAEBEE!important;
+	outline: 0px!important;
+}
+.table-striped thead tr .sticky-cell{
+	background-color: #EAEBEE!important;
+	outline: 0px!important;
+}*/

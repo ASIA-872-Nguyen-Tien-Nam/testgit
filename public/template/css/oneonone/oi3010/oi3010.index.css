@@ -1,0 +1,121 @@
+.text-inside-box:after{
+    content: "\4EFC\610F";
+    color: #2B71B9;
+    font-size: 12px!important;
+    vertical-align: middle;
+    top: -3px;
+    position: relative;
+    margin-left: 5px;
+    border: 0.5px solid #2B71B9;
+    white-space: pre-wrap; 
+}
+.md-radio-v2 label {
+    display: inline-block;
+    height: 20px;
+    position: unset !important;
+    padding: 0 5px 0 0px;
+    margin-bottom: 0;
+    cursor: pointer;
+    vertical-align: bottom;
+    color: #3598DB;
+    margin-top: 18px !important;
+}
+.md-radio-v2{
+    width: 8% !important;
+}
+.radio-1 {
+    width: 8.5% !important;
+}
+.radio{
+    padding: 3px 0px !important;
+}
+.th-answer-box{
+    width: 40%;
+}
+.th-score{
+    width: 40%;
+}
+@media (max-width: 1669px){
+    .th-answer-box{
+        width: 30%;
+    }
+    .th-score{
+        width: 50%;
+    }
+}
+.num-length:not(.td-error) > .textbox-error {
+    position: unset;
+    display: inline-block;
+}
+pre {
+	font-size:.875rem;
+}
+@media (max-width: 575px) {
+	#myTable {
+        min-width: 1500px;
+    }
+    .md-checkbox-v2.pt-1 {
+        margin-top: -33px !important;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    #table-data {
+        min-width: 1473px;
+    }
+    #myTable {
+        min-width: 1500px;
+    }
+    .md-checkbox-v2.pt-1 {
+        margin-top: -33px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #myTable {
+        min-width: 1500px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #myTable {
+        min-width: 1500px;
+    }
+}
+@media (min-width: 320px) and (max-width: 387px) {
+
+}
+@media (min-width: 1200px) and (max-width: 1256px) {
+    .col-group {
+        max-width: 80%;
+    }
+    .col-group-2 {
+        min-width: 20%;
+    }
+    #myTable {
+        min-width: 1500px;
+    }
+}
+.text-overflow-oi3010,
+.text-overflow-oi3010{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+h6{
+    font-family: "Noto Sans JP", sans-serif !important; 
+    font-size: 0.875rem;
+} 
+.hidden, .hide {
+    display: none !important;
+}
+.radio-10-5-0 label:before {
+    top: 21px;
+}
+.checkradio-10-5-0 {
+    top: 20px;
+
+}
+.text__point {
+    position: absolute;
+}
+/* .show{
+    top: -20px !important;;
+} */

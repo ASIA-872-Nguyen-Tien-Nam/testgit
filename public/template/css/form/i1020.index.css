@@ -1,0 +1,178 @@
+.w30 {
+    width: 30%;
+}
+.w40 {
+    width: 38%;
+}
+.w41 {
+    width: 38%;
+}
+.w-40 {
+    min-width: 40px;
+}
+.table tbody tr {
+    background-color: #ffffff ;
+}
+.table tbody tr:hover>.td-group{
+background-color: White ;
+}
+.table tbody tr .td-group:hover{
+    background-color: rgba(0,0,0,.05) !important;
+}
+.table tbody tr:hover > td:not(.td-group){
+    background-color: rgba(0,0,0,.05) !important;
+}
+.table tbody tr .td-group:hover ~ td{
+    background-color: White !important;
+}
+.table tbody tr .td-group {
+    /*background-color: rgba(0,0,0,.05);*/
+    cursor: pointer;
+}
+.td-selected-white{
+	background-color: rgba(0,0,0,.05) !important;
+}
+.td-selected-gray{
+	background-color: rgba(0,0,0,.05)!important;
+}
+.tab-content{
+    max-width: 60%;
+    border: none !important;
+    margin-left: 0px !important;
+}
+.table-responsive.has-copy {
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,.2);
+    border:1px solid #3c763d;
+}
+.calHe.has-copy:before,
+.calHe.has-copy:after {
+    position: absolute;
+    top: 10px;
+    right: -60px;;
+    left: auto;
+    margin: 0;
+    text-align: right;
+}
+
+.calHe.has-copy:after {
+    content: "コピー中";
+    top: 55px;
+    font-size: 13px;
+    white-space: nowrap;
+}
+@media (min-width: 768px) and (max-width: 1366px) {
+    .tab-content{
+        max-width: 69%;
+    }
+}
+.table-bordered {
+    border: 1px solid #dee2e6 !important;
+}
+#table-data {
+    border: 0 !important;
+}
+@media (max-width: 575px) {
+	.tab-content {
+        max-width: 97% !important;
+    }
+    #table-data {
+       min-width: 800px !important;
+    }
+    .select-treatment{
+        min-width: unset !important;
+    }
+    .w41 {
+        width: 75%;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .tab-content {
+        max-width: 100% !important;
+    }
+    #table-data {
+       min-width: 800px !important;
+    }
+    .select-treatment{
+        min-width: unset !important;
+    }
+    .w41 {
+        width: 80%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .tab-content {
+        max-width: 100% !important;
+    }
+    #table-data {
+       min-width: unset !important;
+    }
+    .select-treatment{
+        min-width: unset !important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .tab-content {
+        max-width: unset !important;
+    }
+    #table-data {
+        min-width: unset !important;
+    }
+    .select-treatment{
+        min-width: unset !important;
+    }
+}
+.td-error {
+    position: relative;
+    vertical-align: middle !important;
+}
+.td-error .textbox-error {
+    border-color: #ebb3b9 !important;
+    background-color: #ebb3b9;
+    color: black !important;
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.td-error span {
+    position: relative;
+    z-index: 1;
+}
+.tab-error2:not(.show) {
+    background-color: #FDB8BA!important;
+    border-color: #FDB8BA!important;
+}
+.textbox-error{
+    white-space: pre;
+}
+.btn-primary.disabled, .btn-primary:disabled  {
+    background-color: #757575 !important;
+}
+.table {
+    table-layout: fixed;
+}
+.col-fiscal-year{
+    width: 100px;
+}
+@media (max-width: 434px) {
+    .responsive-flex {
+        flex-direction: column !important;
+        align-items: stretch !important;
+    }
+    .w40 {
+        width: 32%;
+    }
+}
+@media (max-width: 600px) {
+    .fill-label{
+        display: none;
+    }
+    .col-fiscal-year{
+        width: 300px;
+    }
+}
+.select-treatment {
+    padding-left: 15px !important;
+}

@@ -1,0 +1,270 @@
+.button-card {
+  float: right;
+  border-radius: 15px 15px 15px 15px !important;
+  background: white;
+  color: #181818 !important;
+  font-size: 11px;
+  border: 1px solid #80808054;
+  box-shadow: unset !important;
+}
+
+.button-card:hover {
+  color: #fc933c !important;
+  background: white;
+  border: 1px solid #fc933c !important;
+}
+
+.search-condition {
+  position: relative;
+}
+
+.search-condition .hid {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0px !important;
+}
+
+a[aria-expanded="false"] .fa-caret-up,
+a[aria-expanded="true"] .fa-caret-down {
+  display: none;
+}
+
+a[aria-expanded="true"] .fa-caret-up,
+a[aria-expanded="false"] .fa-caret-down {
+  display: inline-block;
+}
+
+.p-content {
+  margin-top: 70px !important;
+}
+
+.pager-wrap.row {
+  margin-left: 0px !important;
+  margin-top: 10px !important;
+  width: 100%;
+}
+
+.comment__share {
+  display: flex;
+}
+
+.comment__share__btn,
+.comment__share__input,
+.comment__share__chk {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.comment__button {
+  width: 100%;
+}
+
+@media (min-width: 1369px) {
+
+  /*  .table-responsive{
+    height: 480px;
+    margin-bottom: 5px;
+  }*/
+  .td-width {
+    max-width: 195px;
+  }
+}
+
+@media (max-width: 1368px) {
+
+  /*  .table-responsive{
+    height: 180px;
+    margin-bottom: 5px;
+  }*/
+  .td-width {
+    max-width: 80px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .pager-wrap.row {
+    margin-left: 0px !important;
+    margin-top: 10px !important;
+    width: 100%;
+  }
+
+  #cb_page {
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 320px) and (max-width: 370px) {
+
+  #basic-addon2 {
+    font-size: 14px;
+  }
+
+}
+
+
+
+/* 2024/05/04 */
+.eq0200 .tooltip-inner {
+  background-color: #31b5cc;
+}
+.eq0200 .bs-tooltip-auto[x-placement^="bottom"] .arrow::before,
+.bs-tooltip-bottom .arrow::before {
+  border-bottom-color: #31b5cc !important;
+}
+
+.eq0200 .bs-tooltip-auto[x-placement^="top"] .arrow::before,
+.eq0200 .bs-tooltip-top .arrow::before {
+  border-top-color: #31b5cc !important;
+}
+
+#ei0200_popup .fake-input-disabled {
+  height: 38px;
+  background-color: #eaeaea;
+  cursor: default;
+  border-radius: 0.25rem;
+  line-height: 38px;
+  padding: 0 0.75rem;
+  border: 1px solid #d0d6da;
+}
+.eq0200 .nav-link {
+  background-color: #31b5cc;
+}
+
+.eq0200 .p-head {
+    background: #31b5cc !important;
+}
+
+.eq0200 .btn-outline-primary:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range):not(.dtp-select-month-range) i {
+    color: #31b5cc !important;
+}
+
+.eq0200 .btn-outline-primary:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range):not(.dtp-select-month-range) {
+    color: #31b5cc !important;
+    border: 1px solid #31b5cc;
+}
+
+.eq0200 .btn-outline-primary:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range):not(.dtp-select-month-range):active i,
+.eq0200 .btn-outline-primary:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range):not(.dtp-select-month-range):hover i,
+.eq0200 .btn-outline-primary:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range):not(.dtp-select-month-range):focus i {
+    color: #fff !important;
+}
+
+.eq0200 .btn-outline-primary:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range):not(.dtp-select-month-range):focus,
+.eq0200 .btn-outline-primary:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range):not(.dtp-select-month-range):active,
+.eq0200 .btn-outline-primary:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range):not(.dtp-select-month-range):hover {
+    background-color: #31b5cc !important;
+    color: white !important;
+    border: 1px solid #dee2e6;
+}
+
+.eq0200 .md-checkbox-v2 input[type="checkbox"]+label:before {
+    background-color: #31b5cc !important;
+}
+
+.eq0200 .md-checkbox-v2 input[type="checkbox"]+label {
+    color: #31b5cc !important;
+}
+
+.eq0200 .md-checkbox-v2 input[type="checkbox"]:checked+label:before {
+    background: #31b5cc !important;
+
+}
+
+.eq0200 .md-checkbox-v2 input[type="checkbox"]:checked+label {
+    color: #31b5cc !important;
+}
+
+.eq0200 .md-checkbox-v2 input[type="checkbox"]:focus+label::before {
+    outline: rgb(207, 204, 196) auto 5px;
+}
+
+.eq0200 .pagination.circle.outline li.active .page-link {
+    border: 1px solid #31b5cc !important;
+    background: #31b5cc !important;
+}
+
+.eq0200 .pagination.circle.outline li:not([disabled]):hover .page-link,
+.eq0200 .pagination.circle.outline li:not([disabled]):focus .page-link,
+.eq0200 .pagination.circle.outline li:not([disabled]):active .page-link {
+    border: 1px solid #31b5cc !important;
+}
+
+.eq0200 .pagination.circl li:hover .page-link,
+.eq0200 .pagination.circl li:focus .page-link,
+.eq0200 .pagination.circl li:active .page-link {
+    background: #31b5cc !important;
+}
+
+.eq0200 .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #cfccc4;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #44bdd485;
+}
+
+.eq0200 .form-control:disabled,
+.eq0200 .form-control[readonly],
+.eq0200 .form-control.required:disabled {
+    background-color: #eaeaea;
+    cursor: default;
+}
+
+.eq0200 .form-control[readonly]:focus {
+    box-shadow: unset;
+    -moz-box-shadow: unset;
+    -webkit-box-shadow: unset;
+}
+
+.eq0200 .form-control.required {
+    background: #fff0d3;
+}
+
+.eq0200 .form-control.textbox-error {
+    color: #f72809;
+    border: 1px solid #f72809;
+}
+
+.eq0200 .ck-value:checked+label {
+    border: 1px solid #5a5a5a !important;
+    background: #31b5cc !important;
+    color: #fff !important;
+}
+
+.eq0200 .button--action {
+    background-color: #31b5cc;
+}
+
+.eq0200 .button--action:hover {
+    background-color: #62d1e0;
+}
+
+.eq0200 .tab-style.nav-tabs .nav-item .show,
+.eq0200 .tab-style.nav-tabs .nav-item .active {
+    background-color: #31b5cc;
+    border-color: #31b5cc;
+}
+
+/* 2024/05/04 */
+.eq0200 .tooltip-inner {
+    background-color: #31b5cc;
+}
+
+.eq0200 .bs-tooltip-auto[x-placement^="bottom"] .arrow::before,
+.eq0200 .bs-tooltip-bottom .arrow::before {
+    border-bottom-color: #31b5cc !important;
+}
+
+.eq0200 .bs-tooltip-auto[x-placement^="top"] .arrow::before,
+.eq0200 .bs-tooltip-top .arrow::before {
+    border-top-color: #31b5cc !important;
+}
+
+.eq0200 a:hover {
+    color: #31b5cc;
+}
+.eq0200 .tooltip-inner {
+  background-color: #31b5cc !important;
+}

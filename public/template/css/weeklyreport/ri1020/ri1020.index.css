@@ -1,0 +1,386 @@
+.mg_row {
+    margin: 0px 0px 0px 15px !important;
+}
+.mg_bottom {
+    margin-bottom: 15px;
+}
+.vt-3 {
+    margin-top: 10px;
+}
+@media (max-width: 575px){
+    .wmd-view-topscroll {
+        display: none;
+    }
+    .vt-3 {
+        margin-top: 10px;
+    }
+    #table_result {
+        min-width: 1900px !important;
+    }
+    .check-width {
+        margin-top: -30px;
+        margin-bottom: -20px;
+    }
+    .pager-wrap {
+        display: inherit;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    #table_result {
+        min-width: 1900px !important;
+    }
+    .check-width {
+        margin-top: -30px;
+        margin-bottom: -20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #table_result {
+        min-width: 1900px !important;
+    }
+    .check-width {
+        margin-top: -30px;
+        margin-bottom: -20px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #table_result {
+        min-width: 1900px !important;
+    }
+}
+@media (max-width: 1300px) and (min-width: 1200px) {
+    #table_result {
+        min-width: 1900px !important;
+    }
+}
+@media (min-width: 1281px) and (max-width: 1365px){
+    .w_div {
+        width: 285px;
+    }
+    #table_result {
+        min-width: 2500px !important;
+    }
+}
+@media (min-width: 1920px){
+    .w_div {
+        width: 430px;
+    }
+}
+@media (min-width: 1366px) and (max-width: 1599px){
+   .w_div {
+       width: 290px;
+   }
+   #table_result {
+    min-width: 2500px !important;
+}
+}
+@media (min-width: 1600px) and (max-width: 1919px){
+    .w_tb {
+        width: 1425px;
+    }
+ 
+    .rater_employee_cd_3 {
+        min-width: 120px ;
+    }
+    .min-w30px {
+        min-width: 80px;
+    }
+    td.min-w30px {
+        min-width: 108px;
+    }
+   td.min-w90px {
+       min-width: 120px;
+   }
+   td.min-w150px {
+    min-width: 200px;
+    }
+   .min-w200px {
+       min-width: 200px;
+   }
+   .rater_employee_nm_1 {
+       width: 189px;
+   }
+    .rater_employee_nm_2 {
+        width: 189px;
+    }
+    .rater_employee_nm_3 {
+        width: 189px;
+    }
+    .rater_employee_nm_4 {
+        width: 189px;
+    }
+    .w-popup {
+        max-width: 97px !important;
+    }
+}
+
+.min-w30px {
+    min-width: 30px;
+}
+.min-w60px {
+    min-width: 60px;
+}
+.min-w80px {
+    min-width: 90px;
+}
+.min-w90px {
+    min-width: 90px;
+}
+.min-w150px {
+    min-width: 200px;
+}
+.min-w350px {
+    min-width: 350px;
+}
+.w-popup {
+    max-width: 120px;
+}
+
+.table-fixed-header{
+    max-height: 54vh;
+    margin-bottom: 10px;
+}
+/*.fixed-header > thead > tr > th:hover{
+    transition: unset;
+}*/
+table tr label {
+    margin-top: .5rem;
+}
+@media (min-width: 1920px){
+    .w_tb {
+        width: 1745px !important;
+    }
+}
+.alignCenter {
+    vertical-align: center !important;
+}
+.tr_first_delete,.tr_second_delete{
+    display: none;
+}
+
+
+.btn-outline-primary:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range):focus, .btn-outline-primary:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range):active, .btn-outline-primary:not(.btn-transparent):not(.btn-flat):not(.btn-link):not(.dtp-select-year-range):hover {
+    border: 1px solid #2A70B8;
+     background: #2A70B8;
+    color: #fff;
+}
+
+.has-error {
+    border: 1px red solid;
+    height: 18px;
+    width: 18px;
+    border-radius: 3px;
+}
+/*.md-checkbox-v2 input[type="checkbox"]+label:before {
+    margin: 0px;
+    top:0px;
+}*/
+
+.btn-key-primary {
+    color: #2A70B8 !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    border: 1px solid #2A70B8 !important;
+}
+.btn-key-primary:active {
+    color: white !important;
+    background-color: #2A70B8 !important;
+    background-image: none !important;
+    border: 1px solid #2A70B8 !important;
+}
+.btn-key-primary:hover {
+    color: white !important;
+    background-color: #2A70B8 !important;
+}
+
+#btn_delete {
+    color: #d9534f;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #d9534f;
+}
+#btn_delete:active {
+    color: white ;
+    background-color: #dc3545;
+    background-image: none;
+    border: 1px solid #dc3545;
+}#btn_delete:hover {
+    color: white;
+    background-color: #dc3545;
+}
+/*fixed top table*/
+.scroll-div1 {
+    width: 4600px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.wmd-view-topscroll {
+    height: 18px;
+}
+
+.wmd-view-topscroll, .wmd-view {
+    overflow-x: scroll;
+}
+
+.table-responsive2 {
+    display: block;
+    width: 100%;
+    overflow-y: auto;
+    padding-top: 20px;
+}
+
+.form-control-plaintext {
+    padding-top: 0px;
+}
+@media (min-width: 1701px) {
+    #table_result .text-overfollow{
+        width: 150px;
+    }
+    .rater_employee_nm_1, .rater_employee_nm_2, .rater_employee_nm_3,.rater_employee_nm_4 {
+        width: 200px;
+    }
+}
+@media (min-width: 1369px) and (max-width: 1700px) {
+    #table_result .text-overfollow{
+        width: 155px;
+        /*margin-left: 20px;*/
+    }
+}
+
+@media (min-width: 1301px) and (max-width: 1368px) {
+    #table_result .text-overfollow{
+        width: 130px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 1300px) {
+    #table_result .text-overfollow{
+        width: 100px;
+        margin-left: 20px;
+    }
+}
+/*.tr-odd td{
+    background-color: #EAEBEE!important;
+    outline: 0px!important;
+}*/
+.colorRow  {
+    background-color: #EAEBEE!important;
+}
+/*.noneHover {
+    background-color: #fff;
+}*/
+.multiselect + .btn-group {
+    width: 100%;
+}
+.col12 .textbox-error,
+.col13 .textbox-error,
+.col14 .textbox-error,
+.col15 .textbox-error,
+tr.new .textbox-error {
+    position: relative !important;
+}
+.col12 .boder-error,
+.col13 .boder-error,
+.col14 .boder-error,
+.col15 .boder-error,
+tr.new .boder-error {
+    margin-top: 0 !important;
+}
+.col12 .btn_employee_cd_popup,
+.col13 .btn_employee_cd_popup,
+.col14 .btn_employee_cd_popup,
+.col15 .btn_employee_cd_popup,
+tr.new .btn_employee_cd_popup {
+    margin-top: 0 !important;
+}
+.col12 .rate_emp {
+    margin-top: 0 !important;
+}
+#table_result tr.tr-odd,
+#table_result tr.tr-odd td,
+#table_result tr.tr-odd td.sticky-cell {
+    background-color: white ;
+    outline: 0px!important;
+}
+#table_result tr:not(.tr-odd) td,
+#table_result tr:not(.tr-odd) td.sticky-cell {
+    background: white ;
+}
+#table_result tr td.sticky-cell {
+    outline: none !important;
+}
+/* #table_result tbody tr:hover {
+    background-color: rgb(197, 197, 197) !important;
+} */
+#table_result tbody tr:hover td:not(.sticky-cell),
+#table_result tr:hover td.sticky-cell {
+    background-color: rgb(252, 239, 239) !important;
+}
+.btn-key-primary:focus{
+    border: 1px solid #2A70B8 !important;
+    background: #2A70B8  !important;
+    color: #fff !important;
+}
+#btn_delete:focus{
+    border: 1px solid #d9534f !important;
+    background: #d9534f  !important;
+    color: #fff !important;
+}
+#table_result tbody td {
+    z-index: 5 !important;
+}
+.pager-info{
+    width: unset !important;
+}
+.btn-key-primary{
+    color: var(--primary-pink) !important;
+    border: 1px solid var(--primary-pink) !important;
+}
+.btn-key-primary:focus {
+    border: 1px solid var(--primary-pink) !important;
+    background: var(--secondary-pink) !important;
+    color: #fff !important;
+}
+.btn-key-primary:hover {
+    color: white !important;
+    background-color: var(--secondary-pink) !important;
+}
+.hide-card-common {
+    transition: 3s !important;
+    height: 52px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sticky-table {
+    max-width: 100%;
+    max-height: 80vh;
+    overflow: auto;
+    padding: 0 !important;
+}
+table .md-checkbox-v2 input[type="checkbox"]+label:before {
+	margin-right: 0px !important;
+}
+.md-radio-v2 input[type="radio"]:focus + label, .md-checkbox-v2 input[type="checkbox"]:focus + label {
+    outline: thin dotted;
+}
+
+.checkbox-os0030 .checkmark {
+    top: -5px;
+    left: 15px;
+}
+.sticky-table table tr th{
+    outline: 0.5px solid #ddd;
+}
+*:hover {
+    transition: ease .0s all !important;
+}
+#table_result { 
+    border: none;
+    border-collapse: separate;
+    border-spacing: 0;
+}

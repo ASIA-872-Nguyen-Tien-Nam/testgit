@@ -1,0 +1,90 @@
+
+// Body
+$body-bg: #f5f8fa;
+
+// Borders
+$laravel-border-color: darken($body-bg, 10%);
+$list-group-border: $laravel-border-color;
+$navbar-default-border: $laravel-border-color;
+$panel-default-border: $laravel-border-color;
+$panel-inner-border: $laravel-border-color;
+
+// Brands
+$brand-primary: #3097D1;
+$brand-info: #8eb4cb;
+$brand-success: #2ab27b;
+$brand-warning: #cbb956;
+$brand-danger: #bf5329;
+
+// Typography
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+$font-family-sans-serif: "Raleway", sans-serif;
+$font-size-base: 0.875rem;
+$line-height-base: 1.6;
+$text-color: #636b6f;
+
+// Navbar
+$navbar-default-bg: #fff;
+
+// Buttons
+$btn-default-color: $text-color;
+
+// Inputs
+$input-border: lighten($text-color, 40%);
+$input-border-focus: lighten($brand-primary, 25%);
+$input-color-placeholder: lighten($text-color, 30%);
+
+// Panels
+$panel-default-heading-bg: #fff;
+
+// background
+$temp-bgcolor: #41b883;
+$temp-bgcolor-hover: darken($temp-bgcolor,20%);
+$bold: 500;
+$border-color:#ddd;
+$colorGreen : #2B71B9;
+$step1 : #42A5F6;
+$step2 : #29B7F7;
+$step3 : #25C6DA;
+$step4 : #25A79B;
+$step5 : #66BB66;
+$step6 : #D4E259;
+$step7 : #F4E262;
+$step8 : #FECA26;
+$step9 : #FFA827;
+$step10 : #FE6F45;
+$step11 : #ED3F7A;
+$step12 : #EF2F2E;
+
+// mixin
+@mixin border-radius($value) {
+	border-radius:$value;
+	-moz-border-radius:$value;
+	-webkit-border-radius:$value;
+	-ms-border-radius:$value;
+}
+@mixin box-shadow($value) {
+	box-shadow:$value;
+	-moz-box-shadow:$value;
+	-webkit-box-shadow:$value;
+	-ms-box-shadow:$value;
+}
+@mixin transform($eff) {
+	transform: $eff;
+	-moz-transform:$eff;
+	-webkit-transform:$eff;
+	-ms-transform:$eff;
+}
+@mixin transition($eff) {
+	transition: $eff;
+	-moz-transition:$eff;
+	-webkit-transition:$eff;
+	-ms-transition:$eff;
+}
+
+@mixin flex($eff) {
+	flex: $eff;
+	-moz-flex:$eff;
+	-webkit-flex:$eff;
+	-ms-flex:$eff;
+}

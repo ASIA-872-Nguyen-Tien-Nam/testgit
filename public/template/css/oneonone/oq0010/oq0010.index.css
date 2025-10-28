@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+.open_video {
+	border: none;
+	background: transparent;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	cursor: pointer;
+	border-bottom: thin solid #68646446;
+	width: 100%;
+	outline:none !important;
+	margin-top: -16px;
+}
+/*.open_video:hover {
+	color:#e7cb64;
+}*/
+.open_video:hover {
+	background: #fff7f1;
+}
+.media-body {
+	overflow: auto;
+	width: 100%;
+}
+.text-overflow-line-2{
+	overflow: hidden;
+   	text-overflow: ellipsis;
+   	display: -webkit-box;
+   	-webkit-line-clamp: 1;
+   	-webkit-box-orient: vertical;
+}

@@ -1,0 +1,20 @@
+.row-hover:hover {
+	cursor: move;
+}
+.next-col {
+	border-right: 1px solid #dee2e6 !important;
+}
+.no-border {
+	background: transparent !important;
+    border: none !important;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+	background-color: transparent;
+}
+.table-striped tbody tr:nth-of-type(odd) td:not(:last-child) {
+	background-color: rgba(0,0,0,.05);
+}
+.table-hover tbody tr:hover {
+	background-color: rgba(0,0,0,.075) !important;
+}
+

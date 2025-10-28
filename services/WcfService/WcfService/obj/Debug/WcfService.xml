@@ -1,0 +1,1024 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WcfService
+</name>
+</assembly>
+<members>
+<member name="P:WcfService.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:WcfService.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:WcfService.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:WcfService.Service1.FNC_WEB_XLS(System.String,System.String,System.String,System.String)">
+	<summary>
+ Funtion output XLS
+ </summary>
+	<param name="sql"></param>
+	<param name="screen"></param>
+	<param name="fileName"></param>
+	<param name="P5"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:WcfService.Service1.FNC_OUT_CSV(System.String,System.String,System.String)">
+*********************************************************************************************************
+ <summary>
+ Function Export CSV
+ </summary>
+	<param name="P1">SQL</param>
+	<param name="P2">File name</param>
+	<returns></returns>
+	<remarks></remarks>
+*********************************************************************************************************
+
+</member><member name="T:WcfService.Cns_Com">
+ 機能概要*****************************************************************************************************
+ <summary>
+ 定数
+ </summary>
+	<remarks></remarks>
+ 
+ 作成者  ：山下 2012.12.10
+ 
+ *************************************************************************************************************
+
+</member><member name="M:WcfService.Utl_XLS.#ctor">
+	<summary>
+ コンストラクタ
+ </summary>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_XLS.FNC_GET_DAT(System.String,System.String,System.Boolean)">
+	<summary>
+ データ取得
+ </summary>
+	<param name="P1">ダウンロードタイプ xls:Excel / csv:CSV</param>
+	<param name="P2">SQL 文</param>
+	<param name="OP1">ヘッダーの有無 true:あり / false:なし [デフォルト：True]</param>
+	<returns>True:作成成功 / False:作成失敗</returns>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_XLS.FNC_GEN_CSV(System.Data.DataTable,System.Boolean)">
+	<summary>
+ CSV 作成
+ </summary>
+	<param name="P1">データ</param>
+	<param name="OP1">ヘッダーの有無 true:あり / false:なし</param>
+	<returns>True.作成成功, False.作成失敗</returns>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_XLS.FNC_CNV_CSV(System.Object,System.Boolean)">
+	<summary>
+ Null値置換
+ </summary>
+	<param name="P1">対象値</param>
+	<param name="OP1">ダブルクォーテーション囲み true:囲む / false:囲まない [デフォルト：true]</param>
+	<returns>変換値</returns>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_XLS.FNC_CNV_FIL(System.String@,System.String)">
+	<summary>
+ Windowsで使えないファイル名判定
+ </summary>
+	<param name="P1">ファイル名</param>
+	<param name="P2">確認拡張子名</param>
+	<returns>禁止文字を"_"で置換したファイル名</returns>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_XLS.FNC_CHK_DUP(System.String,System.String@,System.Int32)">
+	<summary>
+ ファイル名重複確認 (重複時リネーム)
+ </summary>
+	<param name="P1">ディレクトリパス</param>
+	<param name="P2">ファイル名</param>
+	<param name="OP1">確認回数[デフォルト：100]</param>
+	<returns>True:ファイル名重複無し(リネーム成功) / False:ファイル名リネーム失敗</returns>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_XLS.FNC_GET_PTH">
+	<summary>
+ パス取得
+ </summary>
+	<returns>パス</returns>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_XLS.FNC_GET_MSG">
+	<summary>
+ メッセージ取得
+ </summary>
+	<returns>メッセージ</returns>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_XLS.FNC_READ_CSV_TO_DATATABLE(System.String,System.String)">
+	<summary>
+ Funtiong Read CSV to Datatables
+ </summary>
+	<param name="filePath">File Path</param>
+	<param name="delimiters"></param>
+	<returns>Datatable</returns>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Automatic">
+	<summary>
+ 自動設定
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.None">
+	<summary>
+ 色なし
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Black">
+	<summary>
+ 黒
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.White">
+	<summary>
+ 白
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Red">
+	<summary>
+ 赤
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.LightGreen">
+	<summary>
+ 明るい緑
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Blue">
+	<summary>
+ 青
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Yellow">
+	<summary>
+ 黄
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Pink">
+	<summary>
+ ピンク
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Cyan">
+	<summary>
+ 水色
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.DarkRed">
+	<summary>
+ 濃い赤
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Green">
+	<summary>
+ 緑
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.DarkBlue">
+	<summary>
+ 濃い青
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.DarkYellow">
+	<summary>
+ 濃い黄
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Purple">
+	<summary>
+ 紫
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.BlueGreen">
+	<summary>
+ 青緑
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Gray25">
+	<summary>
+ 灰色25%
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Gray50">
+	<summary>
+ 灰色50%
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Gray">
+	<summary>
+ グレー
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Plum">
+	<summary>
+ プラム
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Ivory">
+	<summary>
+ アイボリー
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.ThinCyan">
+	<summary>
+ 薄い水色
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.DarkPurple">
+	<summary>
+ 濃い紫
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Coral">
+	<summary>
+ コーラル
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.OceanBlue">
+	<summary>
+ オーシャンブルー
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.IceBlue">
+	<summary>
+ アイスブルー
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.DarkBlue_2">
+	<summary>
+ 濃い青
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Pink_2">
+	<summary>
+ ピンク
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Yellow_2">
+	<summary>
+ 黄
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Cyan_2">
+	<summary>
+ 水色
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Purple_2">
+	<summary>
+ 紫
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.DarkRed_2">
+	<summary>
+ 濃い赤
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.BlueGreen_2">
+	<summary>
+ 青緑
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Blue_2">
+	<summary>
+ 青
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.SkyBlue">
+	<summary>
+ スカイブルー
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.ThinCyan_2">
+	<summary>
+ 薄い水色
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.ThinGreen">
+	<summary>
+ 薄い緑
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.ThinYellow">
+	<summary>
+ 薄い黄
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.PaleBlue">
+	<summary>
+ ペールブルー
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Rose">
+	<summary>
+ ローズ
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Lavender">
+	<summary>
+ ラベンダー
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Beige">
+	<summary>
+ ベージュ
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.ThinBlue">
+	<summary>
+ 薄い青
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Aqua">
+	<summary>
+ アクア
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Lime">
+	<summary>
+ ライム
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Gold">
+	<summary>
+ ゴールド
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.ThinOrange">
+	<summary>
+ 薄いオレンジ
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Orange">
+	<summary>
+ オレンジ
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.BlueGray">
+	<summary>
+ ブルーグレー
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Gray40">
+	<summary>
+ 灰色40%
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.DarkBlueGreen">
+	<summary>
+ 濃い青緑
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.SeaGreen">
+	<summary>
+ シーグリーン
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.DarkGreen">
+	<summary>
+ 濃い緑
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Olive">
+	<summary>
+ オリーブ
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Brown">
+	<summary>
+ 茶
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Plum_2">
+	<summary>
+ プラム
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Indigo">
+	<summary>
+ インディゴ
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_XLS.ColorIndex.Gray80">
+	<summary>
+ 灰色80%
+ </summary>
+	<remarks></remarks>
+</member><member name="T:WcfService.Utl_XLS.ColorIndex">
+	<summary>
+ Excelのカラーインデックス
+ </summary>
+	<remarks>
+ Excel.XlColorIndexの組込定数と
+ Excel.XlColorIndexの組込定数に存在しない56種類のカラーインデックス
+ </remarks>
+</member><member name="M:WcfService.Utl_RDB.#ctor">
+	<summary>
+ コンストラクタ
+ </summary>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_RDB.FNC_GET_CON">
+	<summary>
+ データベース接続
+ </summary>
+	<returns>True.接続成功 / False.接続失敗</returns>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_RDB.FNC_CLS_CON">
+	<summary>
+ データベース切断
+ </summary>
+	<returns>True.切断成功 / False.切断失敗</returns>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_RDB.FNC_SQL_EXE(System.Data.DataSet@,System.String)">
+	<summary>
+ SELECT文実行
+ </summary>
+	<param name="P1">DataSet (データ取得用：参照渡)</param>
+	<param name="P2">SQL文</param>
+	<returns>True:実行成功 / False:実行失敗</returns>
+	<remarks>実行結果はP1に格納される</remarks>
+</member><member name="M:WcfService.Utl_RDB.FNC_CHK_DAT(System.Data.DataSet,System.Int32,System.Boolean)">
+	<summary>
+ データの有無確認
+ </summary>
+	<param name="P1">DataSet</param>
+	<param name="P2">存在確認インデックス</param>
+	<param name="OP1">True:DataTableの行数が0か確認 / False:DataTableの行数が0かは確認しない [デフォルト：False]</param>
+	<returns>True:データ有り / False:データ無し</returns>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_RDB.FNC_CNV_NUL(System.Object,System.Object)">
+	<summary>
+ Null値置換
+ </summary>
+	<param name="P1">対象値</param>
+	<param name="P2">変換値</param>
+	<returns>変換値</returns>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_RDB.FNC_SQL_VAL(System.String,System.Boolean)">
+	<summary>
+ シングルクォーテーション変換
+ </summary>
+	<param name="P1">対象文字列</param>
+	<param name="OP1">Unicode対応 (True:対応 / False:非対応)</param>
+	<returns>変換文字列</returns>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_RDB.FNC_GET_DAT(System.String)">
+ *************************************************************************************************************
+ <summary>
+ データセット取得
+ </summary>
+	<param name="P1">SQL文</param>
+	<returns>データセット</returns>
+	<remarks></remarks>
+ *************************************************************************************************************
+
+</member><member name="F:WcfService.Utl_Com.P_EXC_TBL">
+ *************************************************************************************************************
+ <summary>
+ メンバー変数
+ </summary>
+	<remarks></remarks>
+ *************************************************************************************************************
+
+</member><member name="M:WcfService.Utl_Com.FNC_CNV_NUL(System.Object,System.Object)">
+ *************************************************************************************************************
+ <summary>
+ Null値置換
+ </summary>
+	<param name="P1">対象値</param>
+	<param name="P2">変換値</param>
+	<returns>変換値</returns>
+	<remarks></remarks>
+ *************************************************************************************************************
+
+</member><member name="M:WcfService.Utl_Com.FNC_FIX_LEN(System.Object,System.String,System.Int32,System.Byte)">
+ *************************************************************************************************************
+ <summary>
+ 固定文字数文字列生成
+ </summary>
+	<param name="P1">対象値</param>
+	<param name="P2">詰文字(space(0) or "0")</param>
+	<param name="P3">固定文字数</param>
+	<param name="P4">処理タイプ(1:後詰　2:前詰)</param>
+	<returns>固定長文字列</returns>
+	<remarks></remarks>
+ *************************************************************************************************************
+
+</member><member name="M:WcfService.Utl_Com.FNC_UPD_USR">
+ *************************************************************************************************************
+ <summary>
+ 更新ユーザー情報生成
+ </summary>
+	<returns>ユーザー情報</returns>
+	<remarks></remarks>
+ *************************************************************************************************************
+
+</member><member name="M:WcfService.Utl_Com.FNC_ERR_RTN(System.Exception@,System.String,System.Boolean)">
+ *************************************************************************************************************
+ <summary>
+ エラー詳細を画面表示
+ </summary>
+	<param name="P1">エラー</param>
+	<param name="OP1">SQLコマンド</param>
+	<param name="OP2">メッセージ表示有無</param>
+	<remarks></remarks>
+ *************************************************************************************************************
+
+</member><member name="M:WcfService.Utl_Com.FNC_ERR_LOG(System.Exception@,System.String)">
+ *************************************************************************************************************
+ <summary>
+ エラーをログファイルに登録
+ </summary>
+	<param name="P1">エラー</param>
+	<param name="P2">SQLコマンド</param>
+	<remarks></remarks>
+ *************************************************************************************************************
+
+</member><member name="M:WcfService.Utl_Com.FNC_GET_IPS">
+ *************************************************************************************************************
+ <summary>
+ 端末IPアドレス取得
+ </summary>
+	<returns>IPアドレス</returns>
+	<remarks></remarks>
+ *************************************************************************************************************
+
+</member><member name="M:WcfService.Utl_Com.FNC_CNV_FIL_NAM(System.String)">
+ *************************************************************************************************************
+ <summary>
+ ファイル名編集(ファイル名 + 日時)
+ </summary>
+	<param name="P1">ファイル名</param>
+	<returns>ファイル名</returns>
+	<remarks></remarks>
+ *************************************************************************************************************
+
+</member><member name="M:WcfService.Utl_Com.FNC_VB_MidB(System.String,System.Int32,System.Int32)">
+	<summary>
+ 指定開始位置から指定バイト数分の文字列を取得
+ VB6のMidBの代替
+ </summary>
+	<param name="P_TargetValue">
+ 対象値
+ </param>
+	<param name="P_StartPosition">
+ 指定開始位置
+ </param>
+	<param name="P_ByteCount">
+ 指定バイト数
+ </param>
+	<returns>
+ 編集値
+ </returns>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_Com.FNC_VB_LenB(System.String)">
+	<summary>
+ バイト数の取得
+ VB6のLenBの代替
+ </summary>
+	<param name="P_TargetValue">
+ 対象値
+ </param>
+	<returns>
+ バイト数
+ </returns>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_Com.FNC_AdjustFontSize(System.Int32,System.Drawing.Font,System.String,System.Single,System.Single)">
+	<summary>
+ フォントサイズ調整
+ </summary>
+	<param name="P_Pattern">
+ パターン 必要に応じて拡張して下さい。
+ ▼パターン1:下記を基準とした場合。
+ フォント種類:等幅太字(= 標準包括)フォント | フォントサイズ:9.75(= 10)pt | 1行表示バイト数:100バイト
+ ▼パターン2:下記を基準とした場合。
+ フォント種類:等幅太字(= 標準包括)フォント | フォントサイズ:9.75(= 10)pt | 1行表示バイト数:70バイト
+ ▼パターン3:下記を基準とした場合。
+ フォント種類:等幅太字(= 標準包括)フォント | フォントサイズ:9.75(= 10)pt | 1行表示バイト数:50バイト
+ ▼パターン4:下記を基準とした場合。
+ フォント種類:等幅太字(= 標準包括)フォント | フォントサイズ:9.75(= 10)pt | 1行表示バイト数:30バイト
+ </param>
+	<param name="P_TargetFont">
+ 対象フォント
+ </param>
+	<param name="P_TargetValue">
+ 対象値
+ </param>
+	<param name="P_MinFontSize">
+ 最小フォントサイズ
+ 指定値より小さいフォントサイズにしない。
+ 基本的には、その領域を1行で表す場合、文字を識別出来るフォントサイズ。
+ </param>
+	<param name="P_MaxFontSize">
+ 最大フォントサイズ
+ 指定値より大きいフォントサイズにしない。
+ 基本的には、その領域を1行で表す場合、文字が欠けないフォントサイズ。
+ </param>
+	<returns>
+ フォント
+ </returns>
+	<remarks>
+ 念の為、フォントサイズは下記にする。
+ 等幅フォントで半角:全角の比を1:2で保つ為、フォントサイズは1.5で割り切れる値にする。
+ </remarks>
+</member><member name="M:WcfService.Utl_Com.M_ExistsData(System.Data.DataSet)">
+	<summary>
+ データ存在判定
+ </summary>
+	<param name="P_DataSet">
+ データ存在判定用データセット
+ </param>
+	<returns>
+ 有無
+ </returns>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_Com.M_ExistsData(System.Data.DataTable)">
+	<summary>
+ データ存在判定
+ </summary>
+	<param name="P_DataTable">
+ データ存在判定用データテーブル
+ </param>
+	<returns>
+ 有無
+ </returns>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_Com.M_FilterDataTable(System.Data.DataTable,System.String,System.String)">
+	<summary>
+ データテーブル絞込
+ </summary>
+	<param name="P_DataTable">
+ フィルター用データテーブル
+ </param>
+	<param name="P_Filter">
+ フィルター
+ </param>
+	<param name="P_Sort">
+ ソート
+ 不要の場合は、"Nothing"を指定。
+ </param>
+	<returns>
+ データテーブル
+ </returns>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_Com.M_IsEqualsColor(System.Drawing.Color,System.Drawing.Color)">
+	<summary>
+ 色等価判定
+ </summary>
+	<param name="P_Color1">
+ 色1
+ </param>
+	<param name="P_Color2">
+ 色2
+ </param>
+	<returns>
+ 判定値
+ </returns>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_Com.M_1ArrayTo2Array(System.Object[],System.Int32)">
+	<summary>
+ 1次元配列を2次元配列化
+ </summary>
+	<param name="P_1Array">
+ 1次元配列
+ </param>
+	<param name="P_SetDimensionNo">
+ 設定次元番号
+ 1:1番目の次元
+ 2:2番目の次元
+ </param>
+	<returns>
+ 2次元配列
+ </returns>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_Com.M_DataTo2Array(System.Data.DataTable,System.String,System.Boolean)">
+	<summary>
+ データ2次元配列化
+ </summary>
+	<param name="P_DataTable">
+ データテーブル
+ </param>
+	<param name="P_ReplaceCrLf">
+ 改行置換
+ 不要の場合は、"Nothing"を指定。
+ </param>
+	<param name="P_IsMakeHeader">
+ ヘッダー作成フラグ
+ </param>
+	<returns>
+ 2次元配列
+ </returns>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_Com.M_DataTo2Array(System.Data.DataTable,System.String,System.Boolean,System.Int32,System.Int32,System.String,System.String)">
+	<summary>
+ データ2次元配列化
+ </summary>
+	<param name="P_DataTable">
+ データテーブル
+ </param>
+	<param name="P_ReplaceCrLf">
+ 改行置換
+ 不要の場合は、"Nothing"を指定。
+ </param>
+	<param name="P_IsMakeHeader">
+ ヘッダー作成フラグ
+ </param>
+	<param name="P_RowIndexFrom">
+ 行インデックス開始
+ </param>
+	<param name="P_RowIndexTo">
+ 行インデックス終了
+ </param>
+	<param name="P_ColumnNameFrom">
+ 列名開始
+ </param>
+	<param name="P_ColumnNameTo">
+ 列名終了
+ </param>
+	<returns>
+ 2次元配列
+ </returns>
+	<remarks>
+ From～To通りに設定する。
+ </remarks>
+</member><member name="M:WcfService.Utl_Com.M_DataTo2Array(System.Data.DataTable,System.String,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ データ2次元配列化
+ </summary>
+	<param name="P_DataTable">
+ データテーブル
+ </param>
+	<param name="P_ReplaceCrLf">
+ 改行置換
+ 不要の場合は、"Nothing"を指定。
+ </param>
+	<param name="P_IsMakeHeader">
+ ヘッダー作成フラグ
+ </param>
+	<param name="P_RowIndexFrom">
+ 行インデックス開始
+ </param>
+	<param name="P_RowIndexTo">
+ 行インデックス終了
+ </param>
+	<param name="P_ColumnIndexFrom">
+ 列インデックス開始
+ </param>
+	<param name="P_ColumnIndexTo">
+ 列インデックス終了
+ </param>
+	<returns>
+ 2次元配列
+ </returns>
+	<remarks>
+ From～To通りに設定する。
+ </remarks>
+</member><member name="M:WcfService.Utl_Com.M_KillProcess(System.String,System.DateTime,System.DateTime)">
+	<summary>
+ プロセス強制終了
+ </summary>
+	<param name="P_ProcessName">プロセス名</param>
+	<param name="P_CheckProcessTimeFrom">チェックプロセス日時開始</param>
+	<param name="P_CheckProcessTimeTo">チェックプロセス日時終了</param>
+	<remarks></remarks>
+</member><member name="T:WcfService.Utl_Com">
+ 機能概要*****************************************************************************************************
+ <summary>
+ 共通関数
+ </summary>
+	<remarks></remarks>
+ 
+ 作成者  ：山下 2012.12.10
+ 
+ 更新者  ：
+ 更新内容：
+ 
+ *************************************************************************************************************
+
+</member><member name="M:WcfService.Utl_PDF.#ctor">
+	<summary>
+ コンストラクタ
+ </summary>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_PDF.FNC_GET_PTH">
+	<summary>
+ パス取得
+ </summary>
+	<returns>パス</returns>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_PDF.FNC_GET_DIR">
+	<summary>
+ パス取得
+ </summary>
+	<returns>パス</returns>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_PDF.FNC_GET_MSG">
+	<summary>
+ メッセージ取得
+ </summary>
+	<returns>メッセージ</returns>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_ERR.FNC_ERR_RTN(System.Exception@,System.String)">
+	<summary>
+ エラーログ生成
+ </summary>
+	<param name="P1">Exception</param>
+	<param name="OP1">エラー時のSQL文</param>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_ERR.FNC_ERR_RTN(System.String@,System.String)">
+	<summary>
+ エラーログ生成
+ </summary>
+	<param name="P1">エラー内容</param>
+	<param name="OP1">エラー時のSQL文</param>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_ERR.FNC_DBG_WRT(System.String,System.String)">
+	<summary>
+ デバッグ用ログ吐き出し
+ </summary>
+	<param name="P1">出力文字</param>
+	<param name="OP1">ファイル名</param>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_ERR.WriteLogFile(System.String,System.String,System.Boolean)">
+	<summary>
+ Write Log File
+ </summary>
+	<param name="content"></param>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_ERR.WriteLogReport(System.String,System.String,System.Boolean)">
+	<summary>
+ Write Log File Report
+ </summary>
+	<param name="content"></param>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_ERR.M_MakeErrorLog(System.String,System.Exception)">
+	<summary>
+ エラーログ作成
+ </summary>
+	<param name="P_FullPathFileName">フルパスファイル名</param>
+	<param name="P_Exception">例外</param>
+	<returns>成否</returns>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_Rpt.MD_DeliverySlipDarkColor">
+	<summary>
+ 納品書 濃色
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_Rpt.MD_DeliverySlipLightColor">
+	<summary>
+ 納品書 薄色
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_Rpt.MD_BillDarkColor">
+	<summary>
+ 請求書 濃色
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_Rpt.MD_BillLightColor">
+	<summary>
+ 請求書 薄色
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_Rpt.MD_RedSlipDarkColor">
+	<summary>
+ 赤伝 濃色
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_Rpt.MD_RedSlipLightColor">
+	<summary>
+ 赤伝 薄色
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_Rpt.MD_ReceiptDarkColor">
+	<summary>
+ 領収書 濃色
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WcfService.Utl_Rpt.MD_ReceiptLightColor">
+	<summary>
+ 領収書 薄色
+ </summary>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_Rpt.FNC_SAV_CSV(System.Data.DataTable@,System.String,System.String)">
+ *************************************************************************************************************
+ <summary>
+ CSVファイル作成/保存
+ </summary>
+	<param name="P1">データテーブル</param>
+	<param name="P2">ファイル名</param>
+	<param name="P3">既定パス</param>
+	<returns></returns>
+	<remarks></remarks>
+ *************************************************************************************************************
+
+</member><member name="M:WcfService.Utl_Rpt.FNC_SAV_CSV_RC280(System.Data.DataTable@,System.String,System.String)">
+ *************************************************************************************************************
+ <summary>
+ CSVファイル作成/保存
+ </summary>
+	<param name="P1">データテーブル</param>
+	<param name="P2">ファイル名</param>
+	<param name="P3">既定パス</param>
+	<returns></returns>
+	<remarks></remarks>
+ *************************************************************************************************************
+
+</member><member name="M:WcfService.Utl_Rpt.getCSVRow_Header(System.Data.DataRow)">
+	<summary>
+ HungNV add
+ get csv from row
+ </summary>
+	<param name="P1">row to get value</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_Rpt.getCSVRow(System.Data.DataRow,System.String)">
+	<summary>
+ HungNV add
+ get csv from row
+ </summary>
+	<param name="P1">row to get value</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_Rpt.FNC_SAV_CSV2(System.Data.DataTable@,System.String,System.String)">
+ *************************************************************************************************************
+ <summary>
+ CSVファイル作成/保存
+ </summary>
+	<param name="P1">データテーブル</param>
+	<param name="P2">ファイル名</param>
+	<param name="P3">既定パス</param>
+	<returns></returns>
+	<remarks></remarks>
+ *************************************************************************************************************
+
+</member><member name="M:WcfService.Utl_Rpt.FNC_OUP_CSV(System.String,System.String,System.String)">
+	<summary>
+ FUNCTION：OUTPUT CSV
+ Author　　：BaoNC
+ Date　：2015/06/17
+ </summary>
+	<param name="P_SQL">SQL</param>
+	<param name="P_Name">Name file</param>
+	<param name="P_Dir">Directory save file</param>
+	<returns></returns>
+</member><member name="M:WcfService.Utl_Rpt.FNC_OUP_CSV_CUS(System.String,System.String,System.String)">
+	<summary>
+ FUNCTION：OUTPUT CSV custom
+ Author　　：HungNV
+ Date　：2016/01/13
+ </summary>
+	<param name="P_SQL">SQL</param>
+	<param name="P_Name">Name file</param>
+	<param name="P_Dir">Directory save file</param>
+	<returns></returns>
+</member><member name="M:WcfService.Utl_Rpt.SUB_ADD_ROW(System.Data.DataTable,System.String[],System.String[],System.Int32)">
+	<summary>
+ データテーブル行追加
+ </summary>
+	<param name="P1">データテーブル</param>
+	<param name="P2">値初期化列名</param>
+	<param name="P3">ページブレーク列名</param>
+	<param name="P4">ページ行数</param>
+	<returns>データテーブル</returns>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_Rpt.FNC_ReleaseCOMObject(System.Object@)">
+	<summary>
+ COMオブジェクトの解放
+ </summary>
+	<param name="P_COMObject">
+ COMオブジェクト
+ </param>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_Rpt.FNC_KillCOMObject(System.Object@)">
+	<summary>
+ FNC_KillCOMObject : Kill backgroup process in windows
+ </summary>
+	<remarks></remarks>
+</member><member name="M:WcfService.Utl_Rpt.FNC_CreatePdf(System.String,System.String,System.String)">
+	<summary>
+	</summary>
+	<param name="D_FullName"></param>
+	<param name="D_fileNamelocalPDF"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:WcfService.Utl_Rpt">
+ 機能概要*****************************************************************************************************
+ <summary>
+ 出力処理
+ </summary>
+	<remarks></remarks>
+ 
+ 作成者  ：山下 2012.12.14
+ 
+ 更新者  ：
+ 更新内容：
+ 
+ *************************************************************************************************************
+
+</member>
+</members>
+</doc>

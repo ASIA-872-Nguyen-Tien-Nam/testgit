@@ -1,0 +1,242 @@
+@import "variables";
+.content {
+	padding-top:60px;
+}
+.pe-w {
+	min-height:80vh;
+}
+.navbar-act .navbar-brand {
+    margin-bottom: -1px;
+}
+.p-title {
+	display: flex;
+	// flex-flow: row wrap;
+	justify-content: space-between;
+	border-bottom:1px solid $colorGreen;
+	padding:10px 0;
+	margin-top:-20px;
+	margin-bottom:15px;
+	color:$colorGreen;
+	> h4 {
+		@include flex(0 0 50%);
+		font-size:1rem;
+		font-weight:bold;
+		margin:0;
+		padding:9px 0;
+		&.block {
+			@include flex(0 0 100%);
+		}
+	}
+}
+.p-title-btn {
+	margin-top:-20px;
+	margin-bottom:15px;
+	padding:10px 0;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	li {
+		list-style:none;
+		padding:.25rem 0;
+		.btn-horizontal.lg {
+			.inner {
+				padding:.5rem;
+				i.fa {
+					font-size:2rem;
+
+				}
+			}
+			@media screen and (max-width:1366px) {
+				.inner {
+					padding:.2rem;
+					i.fa {
+						font-size:1.875rem;
+
+					}
+				}
+			}
+		}
+	}
+	
+}
+
+.pe .list-group-item {
+	border:1px solid transparent;
+	padding:.55rem 1.25rem .55rem 2.675rem;
+	position: relative;
+	&:first-child {
+	    border-top-left-radius: 0;
+	    border-top-right-radius: 0;
+	}
+	&:hover,
+	&:focus,
+	&.active {
+		background:#F6F6F6;
+		color:#333;
+	}
+	.clw {
+		width:1.2rem;
+		height:1.2rem;
+		border-radius:50%;
+		background-color:$colorGreen;
+		display:inline-block;
+		position: absolute;
+		left:10px;
+		&.step1 {
+			background-color:$step1;
+		}
+		&.step2 {
+			background-color:$step2;
+		}
+		&.step3 {
+			background-color:$step3;
+		}
+		&.step4 {
+			background-color:$step4;
+		}
+		&.step5 {
+			background-color:$step5;
+		}
+		&.step6 {
+			background-color:$step6;
+		}
+		&.step7 {
+			background-color:$step7;
+		}
+		&.step8 {
+			background-color:$step8;
+		}
+		&.step9 {
+			background-color:$step9;
+		}
+		&.step10 {
+			background-color:$step10;
+		}
+		&.step11 {
+			background-color:$step11;
+		}
+		&.step12 {
+			background-color:$step12;
+		}
+	}
+	.dropdown-menu {
+		margin:0;
+		padding:0;
+		&.show {
+			display:block;
+			border:1px solid $border-color;
+		}
+		.table {
+			border:0;
+			margin:0;
+			> tbody > tr > td {
+				white-space:nowrap;
+				background-color:#fff;
+				padding:.55rem .35rem;
+				border:0;
+				vertical-align:middle;
+				.clw {
+					position: static;
+					display:inline-block;
+					vertical-align:middle;
+				}
+				span.fa {
+				    border: 1px solid #ddd;
+				    padding: 3px;
+				    border-radius: 50%;
+				    width: 24px;
+				    height: 24px;
+				    text-align: center;
+				}
+				&:first-child {
+					padding:.55rem 1.2rem;
+				}
+				&:last-child {
+					padding:.55rem 1.2rem;
+				}
+			}
+			> tbody > tr:nth-child(even) > td {
+				background-color: #F6F6F6;
+			}
+		}
+		
+		.list-group-item {
+			position: relative;
+			padding:.55rem 1.25rem .55rem 2.675rem;
+			white-space:nowrap;
+		}
+		.list-group-item:nth-child(even) {
+			background-color: #F6F6F6;
+		}
+		.caret {
+		  	position: absolute;
+		  	margin-left:-20px;
+		  	&:before {
+			  	content: '';
+			  	position: absolute;
+			  	top: 10px;
+			  	left: 0;
+			  	border-right: 20px solid $border-color;
+			  	border-top: 10px solid transparent;
+			  	border-bottom: 10px solid transparent;
+			}
+			&:after {
+			  	content: '';
+			  	position: absolute;
+			  	top: 11px;
+			  	left: 1px;
+			  	border-right: 19px solid #ffffff;
+			  	border-top: 9px solid transparent;
+			  	border-bottom: 9px solid transparent;
+			}
+		}
+
+	}
+}
+.lst-content {
+	border:0;
+	padding:0;
+	margin:0;
+	font-size:.875rem;
+	.list-group-item {
+		border-top:1px solid $border-color;
+		border-left:1px solid transparent;
+		border-right:1px solid transparent;
+		border-bottom:1px solid transparent;
+		padding:.35rem 0rem;
+		color:#333;
+		&:focus,
+		&:hover {
+			border-top:1px solid $border-color;
+			z-index:0;
+			background-color: #F6F6F6;
+		}
+		&:first-child {
+			border-top:1px solid transparent;
+		}
+		h4 {
+			margin:0;
+			padding:5px 0;
+			font-size:.875rem;
+			.lb {
+				border:1px solid #FFA827;
+				color:#FFA827;
+				padding:0px 5px;
+			}
+		}
+		p {
+			margin:0;
+		}
+	}
+}
+.btn-outline-default {
+	background-color:#F6F6F6 !important;
+	border:1px solid $border-color;
+	color:#333 !important;
+	@include box-shadow(inset 0 -2px 0 rgba(0, 0, 0, 0.15));
+	@include border-radius(3px);
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: .35rem .785rem;
+}
+
