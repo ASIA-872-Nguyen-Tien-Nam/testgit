@@ -11,7 +11,7 @@ use Illuminate\Foundation\Inspiring;
 | commands. Each Closure is bound to a command instance allowing a
 | simple approach to interacting with each command's IO methods.
 |
-*/         
+*/         //nam
 
 Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
