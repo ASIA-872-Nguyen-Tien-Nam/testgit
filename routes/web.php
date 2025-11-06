@@ -16,7 +16,7 @@
 // });
       
 // Route::get('/login', function () {
-//     return view('login');
+//     return view('login');  
 // });
 
 Route::get('/layout', function () {
