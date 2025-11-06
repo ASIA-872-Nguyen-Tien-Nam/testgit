@@ -18,7 +18,7 @@
 // Route::get('/login', function () {
 //     return view('login');
 // });
-             
+                       
 Route::get('/layout', function () {
     return view('layout');
 });
