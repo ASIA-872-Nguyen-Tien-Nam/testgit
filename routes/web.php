@@ -22,5 +22,5 @@
 Route::get('/layout', function () {
     return view('layout');
 });           
-
+  
 Route::get('/email', ['as' => 'email.send', 'uses' => 'EmailController@send']);               
