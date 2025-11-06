@@ -1,9 +1,0 @@
-<?php
-namespace {{NAMESPACE}};
-use Carbon\Carbon;
-use File;
-class {{NAME}}
-{
-
-
-}
